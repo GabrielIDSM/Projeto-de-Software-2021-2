@@ -1,0 +1,550 @@
+09-Jan-2022 12:46:14.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+09-Jan-2022 12:46:14.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\logging.properties
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\endorsed
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 12:46:14.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 12:46:14.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\temp
+09-Jan-2022 12:46:14.130 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+09-Jan-2022 12:46:14.130 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Jan-2022 12:46:14.765 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+09-Jan-2022 12:46:15.729 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 12:46:15.737 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 12:46:15.738 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2310 ms
+09-Jan-2022 12:46:15.795 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+09-Jan-2022 12:46:15.795 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+09-Jan-2022 12:46:15.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+09-Jan-2022 12:46:16.656 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2022 12:46:16.761 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 957 ms
+09-Jan-2022 12:46:16.761 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+09-Jan-2022 12:46:17.219 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2022 12:46:17.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 524 ms
+09-Jan-2022 12:46:17.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\docs
+09-Jan-2022 12:46:17.339 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\docs has finished in 53 ms
+09-Jan-2022 12:46:17.339 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\examples
+09-Jan-2022 12:46:17.781 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\examples has finished in 442 ms
+09-Jan-2022 12:46:17.781 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\host-manager
+09-Jan-2022 12:46:17.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\host-manager has finished in 99 ms
+09-Jan-2022 12:46:17.881 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\manager
+09-Jan-2022 12:46:17.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\manager has finished in 54 ms
+09-Jan-2022 12:46:17.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\ROOT
+09-Jan-2022 12:46:17.974 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\ROOT has finished in 40 ms
+09-Jan-2022 12:46:17.979 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 12:46:17.984 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 12:46:17.985 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2246 ms
+09-Jan-2022 12:47:04.277 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Jan-2022 12:47:04.277 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 12:47:04.339 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 12:47:04.401 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+09-Jan-2022 12:47:04.466 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 12:47:04.590 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 12:47:04.718 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 12:47:04.718 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 12:54:38.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 12:54:38.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\logging.properties
+09-Jan-2022 12:54:38.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2022 12:54:38.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\endorsed
+09-Jan-2022 12:54:38.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 12:54:38.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 12:54:38.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\temp
+09-Jan-2022 12:54:38.322 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+09-Jan-2022 12:54:38.322 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Jan-2022 12:54:38.835 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+09-Jan-2022 12:54:38.920 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 12:54:38.925 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 12:54:38.926 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 854 ms
+09-Jan-2022 12:54:38.954 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+09-Jan-2022 12:54:38.954 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+09-Jan-2022 12:54:38.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+09-Jan-2022 12:54:39.435 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2022 12:54:39.539 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 576 ms
+09-Jan-2022 12:54:39.539 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+09-Jan-2022 12:54:39.784 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2022 12:54:39.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 297 ms
+09-Jan-2022 12:54:39.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\docs
+09-Jan-2022 12:54:39.859 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\docs has finished in 22 ms
+09-Jan-2022 12:54:39.859 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\examples
+09-Jan-2022 12:54:40.165 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\examples has finished in 306 ms
+09-Jan-2022 12:54:40.165 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\host-manager
+09-Jan-2022 12:54:40.196 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\host-manager has finished in 31 ms
+09-Jan-2022 12:54:40.196 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\manager
+09-Jan-2022 12:54:40.237 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\manager has finished in 41 ms
+09-Jan-2022 12:54:40.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\ROOT
+09-Jan-2022 12:54:40.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\ROOT has finished in 27 ms
+09-Jan-2022 12:54:40.267 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 12:54:40.272 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 12:54:40.273 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1347 ms
+09-Jan-2022 12:54:40.655 INFO [http-apr-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Project.xml
+09-Jan-2022 12:54:40.840 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2022 12:54:40.842 INFO [http-apr-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Project.xml has finished in 187 ms
+09-Jan-2022 12:54:40.844 INFO [http-apr-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Project]] after start() had already been called. The second call will be ignored.
+09-Jan-2022 12:55:05.884 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Jan-2022 12:55:05.884 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 12:55:05.951 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 12:55:06.017 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+09-Jan-2022 12:55:06.042 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 12:55:06.107 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 12:55:06.169 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 12:55:06.169 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 13:54:00.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+09-Jan-2022 13:54:00.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+09-Jan-2022 13:54:00.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+09-Jan-2022 13:54:00.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Jan-2022 13:54:00.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jan-2022 13:54:00.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jan-2022 13:54:00.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+09-Jan-2022 13:54:00.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+09-Jan-2022 13:54:00.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jan-2022 13:54:00.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 13:54:00.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 13:54:00.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\logging.properties
+09-Jan-2022 13:54:00.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jan-2022 13:54:00.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\endorsed
+09-Jan-2022 13:54:00.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 13:54:00.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27
+09-Jan-2022 13:54:00.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\temp
+09-Jan-2022 13:54:00.412 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+09-Jan-2022 13:54:00.412 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Jan-2022 13:54:00.983 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+09-Jan-2022 13:54:01.109 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 13:54:01.128 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 13:54:01.130 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 991 ms
+09-Jan-2022 13:54:01.179 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+09-Jan-2022 13:54:01.181 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+09-Jan-2022 13:54:01.197 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+09-Jan-2022 13:54:01.637 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2022 13:54:01.725 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 528 ms
+09-Jan-2022 13:54:01.725 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Project.xml
+09-Jan-2022 13:54:01.750 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Project.xml has finished in 25 ms
+09-Jan-2022 13:54:01.750 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+09-Jan-2022 13:54:02.009 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2022 13:54:02.080 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 330 ms
+09-Jan-2022 13:54:02.082 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\docs
+09-Jan-2022 13:54:02.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\docs has finished in 28 ms
+09-Jan-2022 13:54:02.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\examples
+09-Jan-2022 13:54:02.451 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\examples has finished in 341 ms
+09-Jan-2022 13:54:02.452 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\host-manager
+09-Jan-2022 13:54:02.487 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\host-manager has finished in 35 ms
+09-Jan-2022 13:54:02.488 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\manager
+09-Jan-2022 13:54:02.520 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\manager has finished in 32 ms
+09-Jan-2022 13:54:02.520 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\ROOT
+09-Jan-2022 13:54:02.550 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\webapps\ROOT has finished in 30 ms
+09-Jan-2022 13:54:02.552 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 13:54:02.558 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 13:54:02.558 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1427 ms
+09-Jan-2022 13:54:03.433 INFO [http-apr-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Project]
+09-Jan-2022 13:54:03.441 INFO [http-apr-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Project.xml
+09-Jan-2022 13:54:03.466 INFO [http-apr-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Dependências\apache-tomcat-8.0.27\conf\Catalina\localhost\Project.xml has finished in 24 ms
+09-Jan-2022 14:08:49.766 INFO [http-apr-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+09-Jan-2022 14:08:51.103 INFO [http-apr-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2022 14:08:51.112 INFO [http-apr-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+09-Jan-2022 14:08:51.238 INFO [http-apr-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+09-Jan-2022 14:08:52.409 INFO [http-apr-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2022 14:08:52.457 INFO [http-apr-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+09-Jan-2022 14:27:37.432 INFO [http-apr-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+09-Jan-2022 14:27:38.170 SEVERE [http-apr-8080-exec-30] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [jar:file:/C:/Users/gabriel/Files/Projetos%202/PS/Projeto-de-Software-2021-2/Project/build/web/WEB-INF/lib/FastInfoset-1.2.15.jar!/] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:176)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:85)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2011)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1936)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1897)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1149)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5080)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3755)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1006)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:354)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+09-Jan-2022 14:27:38.773 SEVERE [http-apr-8080-exec-30] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [META-INF/versions/9/module-info.class] from Jar [jar:file:/C:/Users/gabriel/Files/Projetos%202/PS/Projeto-de-Software-2021-2/Project/build/web/WEB-INF/lib/byte-buddy-1.11.20.jar!/] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:176)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:85)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2011)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1936)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1897)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1149)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5080)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3755)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1006)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:354)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+09-Jan-2022 14:27:39.337 SEVERE [http-apr-8080-exec-30] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [jar:file:/C:/Users/gabriel/Files/Projetos%202/PS/Projeto-de-Software-2021-2/Project/build/web/WEB-INF/lib/jaxb-api-2.3.1.jar!/] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:176)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:85)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2011)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1936)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1897)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1149)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5080)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3755)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1006)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:354)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+09-Jan-2022 14:27:39.436 SEVERE [http-apr-8080-exec-30] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [jar:file:/C:/Users/gabriel/Files/Projetos%202/PS/Projeto-de-Software-2021-2/Project/build/web/WEB-INF/lib/stax-ex-1.8.jar!/] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:176)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:85)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2011)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1936)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1897)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1149)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5080)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3755)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1006)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:354)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+09-Jan-2022 14:27:39.554 SEVERE [http-apr-8080-exec-30] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [jar:file:/C:/Users/gabriel/Files/Projetos%202/PS/Projeto-de-Software-2021-2/Project/build/web/WEB-INF/lib/istack-commons-runtime-3.0.7.jar!/] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:176)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:85)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2011)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1936)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1897)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1149)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5080)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3755)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1006)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:354)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+09-Jan-2022 14:27:39.689 SEVERE [http-apr-8080-exec-30] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [jar:file:/C:/Users/gabriel/Files/Projetos%202/PS/Projeto-de-Software-2021-2/Project/build/web/WEB-INF/lib/jaxb-runtime-2.3.1.jar!/] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:176)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:85)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2011)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1936)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1897)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1149)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5080)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3755)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1006)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:354)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+09-Jan-2022 14:27:39.708 SEVERE [http-apr-8080-exec-30] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [jar:file:/C:/Users/gabriel/Files/Projetos%202/PS/Projeto-de-Software-2021-2/Project/build/web/WEB-INF/lib/txw2-2.3.1.jar!/] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:176)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:85)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2011)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1936)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1897)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1149)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5080)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3755)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1006)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:354)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+09-Jan-2022 14:27:39.794 SEVERE [http-apr-8080-exec-30] org.apache.catalina.startup.ContextConfig.processAnnotationsJar Unable to process Jar entry [module-info.class] from Jar [jar:file:/C:/Users/gabriel/Files/Projetos%202/PS/Projeto-de-Software-2021-2/Project/build/web/WEB-INF/lib/classmate-1.5.1.jar!/] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: Invalid byte tag in constant pool: 19
+	at org.apache.tomcat.util.bcel.classfile.Constant.readConstant(Constant.java:97)
+	at org.apache.tomcat.util.bcel.classfile.ConstantPool.<init>(ConstantPool.java:55)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readConstantPool(ClassParser.java:176)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:85)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2011)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJar(ContextConfig.java:1961)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1936)
+	at org.apache.catalina.startup.ContextConfig.processAnnotations(ContextConfig.java:1897)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1149)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:95)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5080)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3755)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1006)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:354)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:217)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2503)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2492)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+09-Jan-2022 14:27:39.863 INFO [54] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2022 14:27:39.871 INFO [54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+09-Jan-2022 14:55:14.077 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Jan-2022 14:55:14.078 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 14:55:14.139 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 14:55:14.201 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+09-Jan-2022 14:55:14.226 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 14:55:14.280 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+09-Jan-2022 14:55:14.341 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+09-Jan-2022 14:55:14.341 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]

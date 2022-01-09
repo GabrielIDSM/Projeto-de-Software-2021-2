@@ -1,0 +1,944 @@
+25-Jun-2021 10:53:19.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 10:53:19.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 10:53:19.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 10:53:19.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 10:53:19.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 10:53:19.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 10:53:19.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 10:53:19.320 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 10:53:19.320 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 10:53:19.974 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 10:53:20.464 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 10:53:20.490 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 10:53:20.492 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1643 ms
+25-Jun-2021 10:53:20.637 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 10:53:20.638 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 10:53:20.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 10:53:21.573 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 10:53:21.726 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 1,057 ms
+25-Jun-2021 10:53:21.726 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 10:53:22.250 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 10:53:22.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 597 ms
+25-Jun-2021 10:53:22.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 10:53:22.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 65 ms
+25-Jun-2021 10:53:22.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 10:53:23.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 1,190 ms
+25-Jun-2021 10:53:23.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 10:53:23.654 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 75 ms
+25-Jun-2021 10:53:23.654 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 10:53:23.742 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 88 ms
+25-Jun-2021 10:53:23.742 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 10:53:23.796 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 53 ms
+25-Jun-2021 10:53:23.801 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 10:53:23.817 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 10:53:23.818 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3325 ms
+25-Jun-2021 10:53:24.671 INFO [http-apr-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 10:53:24.895 INFO [http-apr-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 10:53:24.898 INFO [http-apr-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 10:54:06.149 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 10:54:06.149 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 10:54:06.200 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 10:54:06.263 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 10:54:06.289 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Old] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+25-Jun-2021 10:54:06.300 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 10:54:06.302 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 10:54:06.388 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 10:54:06.447 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 10:54:06.447 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 11:28:08.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 11:28:08.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 11:28:08.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 11:28:08.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 11:28:08.060 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 11:28:08.061 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 11:28:08.622 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 11:28:08.747 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 11:28:08.754 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 11:28:08.754 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 960 ms
+25-Jun-2021 11:28:08.785 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 11:28:08.785 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 11:28:08.794 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 11:28:09.198 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 11:28:09.323 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 529 ms
+25-Jun-2021 11:28:09.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 11:28:09.544 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 11:28:09.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 273 ms
+25-Jun-2021 11:28:09.598 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 11:28:09.617 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 19 ms
+25-Jun-2021 11:28:09.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 11:28:09.924 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 306 ms
+25-Jun-2021 11:28:09.924 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 11:28:09.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 28 ms
+25-Jun-2021 11:28:09.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 11:28:09.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 24 ms
+25-Jun-2021 11:28:09.977 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 11:28:09.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 18 ms
+25-Jun-2021 11:28:09.999 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 11:28:10.010 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 11:28:10.011 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1256 ms
+25-Jun-2021 11:39:12.110 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 11:39:12.114 WARNING [http-apr-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 11:39:12.337 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 11:39:12.340 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 11:40:48.909 INFO [http-apr-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 11:40:49.109 INFO [http-apr-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 11:40:49.112 INFO [http-apr-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 11:40:54.385 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 11:40:54.385 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 11:40:54.449 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 11:40:54.511 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 11:40:54.529 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 11:40:54.619 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 11:40:54.680 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 11:40:54.681 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:18:20.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 12:18:20.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:18:20.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 12:18:20.983 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 12:18:20.983 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 12:18:21.543 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 12:18:21.631 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:18:21.637 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:18:21.638 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1057 ms
+25-Jun-2021 12:18:21.661 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 12:18:21.662 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 12:18:21.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 12:18:22.063 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:18:22.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 522 ms
+25-Jun-2021 12:18:22.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 12:18:22.406 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:18:22.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 267 ms
+25-Jun-2021 12:18:22.461 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 12:18:22.482 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 21 ms
+25-Jun-2021 12:18:22.482 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 12:18:22.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 318 ms
+25-Jun-2021 12:18:22.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 12:18:22.824 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 24 ms
+25-Jun-2021 12:18:22.824 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 12:18:22.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 49 ms
+25-Jun-2021 12:18:22.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 12:18:22.896 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 23 ms
+25-Jun-2021 12:18:22.899 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:18:22.903 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:18:22.904 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1265 ms
+25-Jun-2021 12:18:23.424 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:18:23.634 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:18:23.636 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:24:05.779 INFO [http-apr-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:24:05.782 WARNING [http-apr-8080-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 12:24:05.965 INFO [http-apr-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:24:05.968 INFO [http-apr-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:24:31.382 INFO [http-apr-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:24:31.589 INFO [http-apr-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:24:31.592 INFO [http-apr-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:24:48.259 INFO [http-apr-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:24:48.445 INFO [http-apr-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:24:48.448 INFO [http-apr-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:25:26.602 INFO [http-apr-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:25:26.793 INFO [http-apr-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:25:26.796 INFO [http-apr-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:26:00.085 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 12:26:00.085 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:26:00.139 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:26:00.200 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 12:26:00.226 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:26:00.278 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:26:00.339 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:26:00.339 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:26:07.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 12:26:07.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 12:26:07.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:26:07.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:26:07.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 12:26:07.138 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 12:26:07.138 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 12:26:07.677 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 12:26:07.770 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:26:07.777 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:26:07.778 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 915 ms
+25-Jun-2021 12:26:07.802 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 12:26:07.802 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 12:26:07.811 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 12:26:08.200 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:26:08.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 513 ms
+25-Jun-2021 12:26:08.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 12:26:08.516 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:26:08.560 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 236 ms
+25-Jun-2021 12:26:08.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 12:26:08.586 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 24 ms
+25-Jun-2021 12:26:08.586 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 12:26:08.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 298 ms
+25-Jun-2021 12:26:08.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 12:26:08.917 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 33 ms
+25-Jun-2021 12:26:08.918 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 12:26:08.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 28 ms
+25-Jun-2021 12:26:08.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 12:26:08.966 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 21 ms
+25-Jun-2021 12:26:08.968 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:26:08.973 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:26:08.973 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1196 ms
+25-Jun-2021 12:26:09.376 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:26:09.559 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:26:09.563 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:27:55.999 INFO [http-apr-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:27:56.009 WARNING [http-apr-8080-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 12:27:56.207 INFO [http-apr-8080-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:27:56.211 INFO [http-apr-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:29:16.063 INFO [http-apr-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:29:16.071 WARNING [http-apr-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 12:29:16.239 INFO [http-apr-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:29:16.242 INFO [http-apr-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:29:54.275 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 12:29:54.275 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:29:54.340 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:29:54.401 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 12:29:54.425 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:29:54.480 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:29:54.541 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:29:54.541 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:29:58.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 12:29:58.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 12:29:58.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 12:29:58.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 12:29:58.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 12:29:58.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 12:29:58.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 12:29:58.978 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 12:29:59.506 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 12:29:59.610 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:29:59.618 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:29:59.619 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 911 ms
+25-Jun-2021 12:29:59.658 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 12:29:59.658 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 12:29:59.668 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 12:30:00.062 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:30:00.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 521 ms
+25-Jun-2021 12:30:00.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 12:30:00.380 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:30:00.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 242 ms
+25-Jun-2021 12:30:00.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 12:30:00.454 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 21 ms
+25-Jun-2021 12:30:00.454 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 12:30:00.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 310 ms
+25-Jun-2021 12:30:00.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 12:30:00.795 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 31 ms
+25-Jun-2021 12:30:00.795 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 12:30:00.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 27 ms
+25-Jun-2021 12:30:00.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 12:30:00.841 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 19 ms
+25-Jun-2021 12:30:00.844 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:30:00.851 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:30:00.851 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1231 ms
+25-Jun-2021 12:30:01.271 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:30:01.454 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:30:01.458 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:30:42.943 INFO [http-apr-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:30:42.946 WARNING [http-apr-8080-exec-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 12:30:43.158 INFO [http-apr-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:30:43.163 INFO [http-apr-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:34:10.155 INFO [http-apr-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:34:10.162 WARNING [http-apr-8080-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 12:34:10.350 INFO [http-apr-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:34:10.354 INFO [http-apr-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 12:34:53.111 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 12:34:53.112 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:34:53.168 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:34:53.230 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 12:34:53.256 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:34:53.309 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:34:53.370 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:34:53.370 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:35:01.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 12:35:01.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 12:35:01.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 12:35:01.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 12:35:01.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 12:35:01.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 12:35:01.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 12:35:01.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 12:35:01.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 12:35:01.853 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 12:35:01.942 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:35:01.948 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:35:01.949 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 951 ms
+25-Jun-2021 12:35:01.972 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 12:35:01.972 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 12:35:01.980 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 12:35:02.379 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:35:02.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 529 ms
+25-Jun-2021 12:35:02.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 12:35:02.709 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:35:02.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 259 ms
+25-Jun-2021 12:35:02.768 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 12:35:02.790 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 21 ms
+25-Jun-2021 12:35:02.790 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 12:35:03.095 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 305 ms
+25-Jun-2021 12:35:03.095 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 12:35:03.119 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 24 ms
+25-Jun-2021 12:35:03.120 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 12:35:03.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 26 ms
+25-Jun-2021 12:35:03.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 12:35:03.166 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 20 ms
+25-Jun-2021 12:35:03.171 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 12:35:03.183 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 12:35:03.184 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1234 ms
+25-Jun-2021 12:35:03.653 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 12:35:03.842 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 12:35:03.845 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 13:13:44.686 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 13:13:44.686 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:13:44.747 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:13:44.808 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 13:13:44.825 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Old] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+25-Jun-2021 13:13:44.834 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 13:13:44.836 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:13:44.887 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:13:44.947 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:13:44.947 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:13:54.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 13:13:54.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 13:13:54.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 13:13:54.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 13:13:54.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 13:13:54.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 13:13:54.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 13:13:54.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 13:13:54.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 13:13:54.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:13:54.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:13:54.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 13:13:54.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 13:13:54.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 13:13:54.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:13:54.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:13:54.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 13:13:54.902 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 13:13:54.902 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 13:13:55.484 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 13:13:55.578 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:13:55.584 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:13:55.585 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 945 ms
+25-Jun-2021 13:13:55.619 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 13:13:55.619 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 13:13:55.628 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 13:13:56.059 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:13:56.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 559 ms
+25-Jun-2021 13:13:56.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 13:13:56.383 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:13:56.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 249 ms
+25-Jun-2021 13:13:56.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 13:13:56.458 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 21 ms
+25-Jun-2021 13:13:56.458 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 13:13:56.781 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 323 ms
+25-Jun-2021 13:13:56.781 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 13:13:56.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 27 ms
+25-Jun-2021 13:13:56.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 13:13:56.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 24 ms
+25-Jun-2021 13:13:56.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 13:13:56.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 22 ms
+25-Jun-2021 13:13:56.856 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:13:56.861 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:13:56.862 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1277 ms
+25-Jun-2021 13:15:06.222 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 13:15:06.222 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:15:06.281 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:15:06.342 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 13:15:06.359 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Old] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 13:15:06.416 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:15:06.468 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:15:06.530 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:15:06.530 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:20:43.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 13:20:43.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 13:20:43.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 13:20:43.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 13:20:43.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 13:20:43.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 13:20:43.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 13:20:43.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 13:20:43.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 13:20:43.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:20:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:20:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 13:20:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 13:20:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 13:20:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:20:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:20:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 13:20:43.647 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 13:20:43.647 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 13:20:44.185 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 13:20:44.275 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:20:44.282 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:20:44.283 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 900 ms
+25-Jun-2021 13:20:44.314 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 13:20:44.315 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 13:20:44.322 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 13:20:44.796 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:20:44.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 638 ms
+25-Jun-2021 13:20:44.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 13:20:45.160 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:20:45.165 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 204 ms
+25-Jun-2021 13:20:45.165 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 13:20:45.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 26 ms
+25-Jun-2021 13:20:45.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 13:20:45.503 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 312 ms
+25-Jun-2021 13:20:45.503 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 13:20:45.529 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 26 ms
+25-Jun-2021 13:20:45.529 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 13:20:45.563 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 34 ms
+25-Jun-2021 13:20:45.563 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 13:20:45.581 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 18 ms
+25-Jun-2021 13:20:45.583 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:20:45.588 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:20:45.589 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1305 ms
+25-Jun-2021 13:20:46.118 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 13:20:46.307 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:20:46.311 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 13:22:36.508 INFO [http-apr-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 13:22:36.558 WARNING [http-apr-8080-exec-8] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 13:22:36.746 INFO [http-apr-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:22:36.749 INFO [http-apr-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 13:24:14.422 INFO [http-apr-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 13:24:14.429 WARNING [http-apr-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 13:24:14.610 INFO [http-apr-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:24:14.613 INFO [http-apr-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 13:24:21.422 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 13:24:21.422 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:24:21.478 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:24:21.541 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 13:24:21.579 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:24:21.666 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:24:21.726 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:24:21.726 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:24:26.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 13:24:26.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 13:24:26.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 13:24:26.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 13:24:26.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 13:24:26.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 13:24:26.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 13:24:26.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 13:24:27.254 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 13:24:27.344 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:24:27.350 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:24:27.352 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 923 ms
+25-Jun-2021 13:24:27.375 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 13:24:27.376 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 13:24:27.384 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 13:24:27.791 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:24:27.954 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 569 ms
+25-Jun-2021 13:24:27.954 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 13:24:28.148 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:24:28.153 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 199 ms
+25-Jun-2021 13:24:28.153 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 13:24:28.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 26 ms
+25-Jun-2021 13:24:28.180 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 13:24:28.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 330 ms
+25-Jun-2021 13:24:28.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 13:24:28.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 28 ms
+25-Jun-2021 13:24:28.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 13:24:28.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 56 ms
+25-Jun-2021 13:24:28.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 13:24:28.615 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 20 ms
+25-Jun-2021 13:24:28.617 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:24:28.622 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:24:28.623 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1270 ms
+25-Jun-2021 13:24:29.163 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 13:24:29.347 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:24:29.350 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 13:25:20.547 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 13:25:20.548 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:25:20.606 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:25:20.668 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 13:25:20.737 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 13:25:20.740 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:25:20.856 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:25:20.980 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:25:20.981 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:31:31.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 13:31:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 13:31:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 13:31:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 13:31:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 13:31:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 13:31:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 13:31:31.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 13:31:31.417 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 13:31:31.982 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 13:31:32.071 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:31:32.077 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:31:32.080 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 946 ms
+25-Jun-2021 13:31:32.106 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 13:31:32.106 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 13:31:32.115 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 13:31:32.520 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:31:32.687 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 572 ms
+25-Jun-2021 13:31:32.687 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 13:31:32.892 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:31:32.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 210 ms
+25-Jun-2021 13:31:32.898 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 13:31:32.921 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 23 ms
+25-Jun-2021 13:31:32.921 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 13:31:33.281 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 360 ms
+25-Jun-2021 13:31:33.281 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 13:31:33.306 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 25 ms
+25-Jun-2021 13:31:33.306 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 13:31:33.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 26 ms
+25-Jun-2021 13:31:33.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 13:31:33.352 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 20 ms
+25-Jun-2021 13:31:33.354 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:31:33.359 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:31:33.360 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1278 ms
+25-Jun-2021 13:31:33.913 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 13:31:34.098 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:31:34.101 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 13:33:22.793 INFO [http-apr-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 13:33:22.796 WARNING [http-apr-8080-exec-8] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 13:33:22.979 INFO [http-apr-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:33:22.985 INFO [32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 13:34:34.978 INFO [http-apr-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 13:34:34.984 WARNING [http-apr-8080-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 13:34:35.159 INFO [http-apr-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:34:35.162 INFO [http-apr-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 13:46:06.199 INFO [http-apr-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 13:46:06.203 WARNING [http-apr-8080-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 13:46:06.376 INFO [http-apr-8080-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 13:46:06.380 INFO [http-apr-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 13:50:20.859 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 13:50:20.859 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:50:20.913 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:50:20.974 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 13:50:20.991 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Old] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+25-Jun-2021 13:50:21.001 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 13:50:21.003 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:50:21.102 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 13:50:21.161 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 13:50:21.161 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 20:37:27.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 20:37:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 20:37:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 20:37:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 20:37:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 20:37:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 20:37:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 20:37:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 20:37:27.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 20:37:27.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 20:37:27.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 20:37:27.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 20:37:27.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 20:37:27.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 20:37:27.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 20:37:27.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 20:37:27.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 20:37:27.209 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 20:37:27.209 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 20:37:29.040 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 20:37:29.487 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 20:37:29.561 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 20:37:29.563 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4157 ms
+25-Jun-2021 20:37:29.841 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 20:37:29.841 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 20:37:29.853 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 20:37:32.937 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 20:37:33.161 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+25-Jun-2021 20:37:33.249 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 3,396 ms
+25-Jun-2021 20:37:33.249 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 20:37:34.088 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 20:37:34.147 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 898 ms
+25-Jun-2021 20:37:34.148 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 20:37:34.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 73 ms
+25-Jun-2021 20:37:34.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 20:37:40.089 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 5,868 ms
+25-Jun-2021 20:37:40.089 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 20:37:40.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 88 ms
+25-Jun-2021 20:37:40.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 20:37:40.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 263 ms
+25-Jun-2021 20:37:40.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 20:37:40.503 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 63 ms
+25-Jun-2021 20:37:40.506 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 20:37:40.518 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 20:37:40.519 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 10956 ms
+25-Jun-2021 20:37:41.712 INFO [http-apr-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 20:37:42.098 INFO [http-apr-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 20:37:42.101 INFO [http-apr-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 20:42:46.499 INFO [http-apr-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 20:42:46.507 WARNING [http-apr-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 20:42:46.692 INFO [http-apr-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 20:42:46.696 INFO [http-apr-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 20:43:57.892 INFO [http-apr-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 20:43:58.081 INFO [http-apr-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 20:43:58.087 INFO [http-apr-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 20:45:18.504 INFO [http-apr-8080-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 20:45:18.510 WARNING [http-apr-8080-exec-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 20:45:18.711 INFO [http-apr-8080-exec-31] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 20:45:18.715 INFO [http-apr-8080-exec-31] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 20:49:55.542 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 20:49:55.542 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 20:49:55.602 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 20:49:55.663 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 20:49:55.704 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Old] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+25-Jun-2021 20:49:55.713 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 20:49:55.716 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 20:49:55.773 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 20:49:55.834 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 20:49:55.834 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 20:52:11.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 20:52:11.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 20:52:11.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 20:52:11.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 20:52:11.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 20:52:11.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 20:52:11.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 20:52:11.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 20:52:11.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 20:52:11.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 20:52:11.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 20:52:11.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 20:52:11.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 20:52:11.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 20:52:11.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 20:52:11.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 20:52:11.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 20:52:11.344 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 20:52:11.344 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 20:52:11.940 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 20:52:12.036 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 20:52:12.042 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 20:52:12.043 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1087 ms
+25-Jun-2021 20:52:12.069 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 20:52:12.070 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 20:52:12.084 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 20:52:12.502 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 20:52:12.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 546 ms
+25-Jun-2021 20:52:12.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 20:52:12.860 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 20:52:12.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 290 ms
+25-Jun-2021 20:52:12.921 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 20:52:12.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 21 ms
+25-Jun-2021 20:52:12.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 20:52:13.282 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 341 ms
+25-Jun-2021 20:52:13.282 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 20:52:13.311 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 29 ms
+25-Jun-2021 20:52:13.311 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 20:52:13.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 48 ms
+25-Jun-2021 20:52:13.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 20:52:13.382 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 23 ms
+25-Jun-2021 20:52:13.384 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 20:52:13.391 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 20:52:13.393 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1348 ms
+25-Jun-2021 20:52:13.822 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 20:52:14.024 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 20:52:14.026 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 20:53:58.235 INFO [http-apr-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 20:53:58.240 WARNING [http-apr-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 20:53:58.418 INFO [http-apr-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 20:53:58.423 INFO [http-apr-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:01:53.065 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 21:01:53.066 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 21:01:53.119 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 21:01:53.181 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 21:01:53.201 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Old] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+25-Jun-2021 21:01:53.214 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 21:01:53.218 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 21:01:53.277 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 21:01:53.338 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 21:01:53.338 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 21:03:03.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 21:03:03.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 21:03:03.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 21:03:03.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 21:03:03.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 21:03:03.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 21:03:03.857 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 21:03:03.857 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 21:03:04.415 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 21:03:04.509 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 21:03:04.515 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 21:03:04.516 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1070 ms
+25-Jun-2021 21:03:04.538 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 21:03:04.539 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 21:03:04.546 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 21:03:04.970 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:03:05.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 551 ms
+25-Jun-2021 21:03:05.097 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 21:03:05.324 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:03:05.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 277 ms
+25-Jun-2021 21:03:05.375 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 21:03:05.399 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 24 ms
+25-Jun-2021 21:03:05.399 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 21:03:05.706 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 306 ms
+25-Jun-2021 21:03:05.706 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 21:03:05.735 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 29 ms
+25-Jun-2021 21:03:05.735 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 21:03:05.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 35 ms
+25-Jun-2021 21:03:05.770 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 21:03:05.787 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 17 ms
+25-Jun-2021 21:03:05.789 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 21:03:05.794 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 21:03:05.794 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1277 ms
+25-Jun-2021 21:03:06.175 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:03:06.366 INFO [http-apr-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:03:06.369 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:06:50.455 INFO [http-apr-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:06:50.457 WARNING [http-apr-8080-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 21:06:50.650 INFO [http-apr-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:06:50.653 INFO [http-apr-8080-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:16:53.277 INFO [http-apr-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:16:53.283 WARNING [http-apr-8080-exec-26] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 21:16:53.455 INFO [http-apr-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:16:53.459 INFO [http-apr-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:19:56.449 INFO [http-apr-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:19:56.616 INFO [http-apr-8080-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:19:56.619 INFO [http-apr-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:21:53.903 INFO [http-apr-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:21:53.910 WARNING [http-apr-8080-exec-34] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 21:21:54.086 INFO [http-apr-8080-exec-34] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:21:54.090 INFO [http-apr-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:22:02.998 INFO [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:22:03.169 INFO [http-apr-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:22:03.173 INFO [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:22:19.249 INFO [http-apr-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:22:19.414 INFO [http-apr-8080-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:22:19.417 INFO [http-apr-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:22:51.507 INFO [http-apr-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:22:51.512 WARNING [http-apr-8080-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 21:22:51.666 INFO [http-apr-8080-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:22:51.669 INFO [http-apr-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:23:10.796 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 21:23:10.796 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 21:23:10.855 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 21:23:10.917 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 21:23:10.932 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Old] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+25-Jun-2021 21:23:10.939 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 21:23:10.941 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 21:23:11.014 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 21:23:11.075 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 21:23:11.075 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 21:23:51.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.27
+25-Jun-2021 21:23:51.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2015 08:17:25 UTC
+25-Jun-2021 21:23:51.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.27.0
+25-Jun-2021 21:23:51.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Jun-2021 21:23:51.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Jun-2021 21:23:51.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Jun-2021 21:23:51.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+25-Jun-2021 21:23:51.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+25-Jun-2021 21:23:51.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Jun-2021 21:23:51.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 21:23:51.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 21:23:51.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\logging.properties
+25-Jun-2021 21:23:51.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Jun-2021 21:23:51.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\endorsed
+25-Jun-2021 21:23:51.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 21:23:51.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27
+25-Jun-2021 21:23:51.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\temp
+25-Jun-2021 21:23:51.650 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+25-Jun-2021 21:23:51.650 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+25-Jun-2021 21:23:52.209 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+25-Jun-2021 21:23:52.305 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 21:23:52.312 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 21:23:52.313 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 989 ms
+25-Jun-2021 21:23:52.353 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Jun-2021 21:23:52.354 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.27
+25-Jun-2021 21:23:52.363 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml
+25-Jun-2021 21:23:52.776 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:23:52.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Old.xml has finished in 540 ms
+25-Jun-2021 21:23:52.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml
+25-Jun-2021 21:23:53.105 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:23:53.164 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\conf\Catalina\localhost\Work.xml has finished in 261 ms
+25-Jun-2021 21:23:53.165 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs
+25-Jun-2021 21:23:53.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\docs has finished in 22 ms
+25-Jun-2021 21:23:53.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples
+25-Jun-2021 21:23:53.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\examples has finished in 331 ms
+25-Jun-2021 21:23:53.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager
+25-Jun-2021 21:23:53.551 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\host-manager has finished in 33 ms
+25-Jun-2021 21:23:53.551 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager
+25-Jun-2021 21:23:53.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\manager has finished in 34 ms
+25-Jun-2021 21:23:53.586 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT
+25-Jun-2021 21:23:53.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\gabriel\Files\UFF\2021.1\Dev Web\+\apache-tomcat-8.0.27\webapps\ROOT has finished in 32 ms
+25-Jun-2021 21:23:53.620 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 21:23:53.630 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 21:23:53.631 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1317 ms
+25-Jun-2021 21:24:33.397 INFO [http-apr-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:24:33.423 WARNING [http-apr-8080-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 21:24:33.780 INFO [27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:24:33.786 INFO [27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:30:12.215 INFO [http-apr-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:30:12.222 WARNING [http-apr-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 21:30:12.406 INFO [http-apr-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:30:12.413 INFO [http-apr-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:30:49.739 INFO [http-apr-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:30:49.909 INFO [http-apr-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:30:49.913 INFO [http-apr-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:31:18.843 INFO [http-apr-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:31:19.062 INFO [http-apr-8080-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:31:19.065 INFO [http-apr-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:32:08.459 INFO [http-apr-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:32:08.631 INFO [http-apr-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:32:08.635 INFO [http-apr-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:34:30.117 INFO [http-apr-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:34:30.123 WARNING [http-apr-8080-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 21:34:30.288 INFO [http-apr-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:34:30.291 INFO [http-apr-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:35:49.816 INFO [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:35:49.985 INFO [http-apr-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:35:49.988 INFO [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:36:33.154 INFO [http-apr-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:36:33.335 INFO [http-apr-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:36:33.338 INFO [http-apr-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:36:47.429 INFO [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:36:47.598 INFO [http-apr-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:36:47.602 INFO [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:37:32.437 INFO [http-apr-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:37:32.608 INFO [http-apr-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:37:32.611 INFO [http-apr-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:38:10.267 INFO [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:38:10.482 INFO [http-apr-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:38:10.485 INFO [http-apr-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:38:32.151 INFO [http-apr-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:38:32.321 INFO [http-apr-8080-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:38:32.323 INFO [http-apr-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:38:48.293 INFO [http-apr-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:38:48.460 INFO [http-apr-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:38:48.462 INFO [http-apr-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:40:30.245 INFO [http-apr-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:40:30.248 WARNING [http-apr-8080-exec-52] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 21:40:30.407 INFO [http-apr-8080-exec-52] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:40:30.410 INFO [http-apr-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 21:40:58.342 INFO [http-apr-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] has started
+25-Jun-2021 21:40:58.513 INFO [http-apr-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Jun-2021 21:40:58.516 INFO [http-apr-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Work] is completed
+25-Jun-2021 22:09:50.724 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Jun-2021 22:09:50.724 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 22:09:50.777 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 22:09:50.778 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-Jun-2021 22:09:50.796 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Old] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:41)
+25-Jun-2021 22:09:50.802 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Work] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Jun-2021 22:09:50.803 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 22:09:50.856 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+25-Jun-2021 22:09:50.919 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+25-Jun-2021 22:09:50.919 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
