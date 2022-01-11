@@ -2,6 +2,9 @@ package Repository;
 
 import DAO.ServiceHistoryDAO;
 import DTO.ServiceHistoryDTO;
+import Model.ServiceHistoryModel;
+import Model.ServiceModel;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -40,6 +43,28 @@ public class ServiceHistoryRepository extends Repository<ServiceHistoryDTO> {
         return list;
     }
     
+    public List<ServiceHistoryModel> all(Integer serviceModelId) {
+        List<ServiceHistoryModel> list = new ArrayList<>();
+        List<ServiceHistoryDTO>objectList = all();
+        objectList.stream().filter((serviceHistoryDTO) -> (serviceHistoryDTO.getService().getId().compareTo(serviceModelId) == 0)).map((serviceHistoryDTO) -> {
+            ServiceHistoryModel serviceHistoryModel = new ServiceHistoryModel();
+            serviceHistoryModel.setId(serviceHistoryDTO.getId());
+            serviceHistoryModel.setComplaints(serviceHistoryDTO.getComplaints());
+            serviceHistoryModel.setCollectionTimestamp(serviceHistoryDTO.getCollectionTimestamp());
+            return serviceHistoryModel;
+        }).forEachOrdered((serviceHistoryModel) -> {
+            list.add(serviceHistoryModel);
+        });
+        list.sort((object1, object2) -> {
+            return object1.getCollectionTimestamp().compareTo(object2.getCollectionTimestamp());
+        });
+        return list;
+    }
+    
+    public Boolean addServiceHistory(ServiceHistoryDTO object) {
+        return add(object);
+    }
+
     public Boolean removeServiceHistory(ServiceHistoryDTO object) {
         return remove(object);
     }

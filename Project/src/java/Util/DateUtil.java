@@ -14,6 +14,6 @@ public class DateUtil {
         TimeZone timeZone = TimeZone.getTimeZone("UTC");
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
         dateFormat.setTimeZone(timeZone);
-        return dateFormat.format(new Date(System.currentTimeMillis() - 1800 * 1000));
+        return dateFormat.format(new Date(System.currentTimeMillis() - 60*60*1000));
     }
 }

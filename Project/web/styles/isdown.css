@@ -1,0 +1,84 @@
+/* 
+    Created on : 11/01/2022, 18:25:33
+    Author     : Gabriel Inácio <gabrielinacio@id.uff.br>
+*/
+
+.col {
+    margin-bottom: 3%;
+}
+
+.isdown-round {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.isdown-image-div {
+    margin: 2rem auto;
+    display: inline-block;
+}
+
+.isdown-frame-div {
+    width: 250px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+.isdown-frame-div img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.isdown-default-div{
+    padding: 0;
+    display: block;
+    transition: 0.75s;
+    text-align: center;
+}
+
+.isdown-down-content-div {
+    width: 100%;
+    text-align: center;
+}
+
+.isdown-down-content-div p {
+    margin: 1rem 0;
+    font-size: 16pt;
+}
+
+.isdown-default-div div {
+    display: block;
+}
+
+.isdown-normal-div{
+    background-color: green;
+    color: white;
+}
+
+.isdown-warning-div{
+    background-color: yellow;
+    color: black;
+}
+
+.isdown-danger-div{
+    background-color: orange;
+    color: white;
+}
+
+.isdown-down-div{
+    background-color: red;
+    color: white;
+}
+
+.isdown-none-div{
+    background-color: white;
+    color: black;
+}
+
+.isdown-failed-div{
+    background-color: black;
+    color: white;
+}

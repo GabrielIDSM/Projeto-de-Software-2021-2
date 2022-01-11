@@ -2,6 +2,7 @@ package DTO;
 
 import java.io.Serializable;
 import java.util.Calendar;
+import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -26,9 +27,9 @@ public class ServiceHistoryDTO implements Serializable {
     @ManyToOne
     private ServiceDTO Service;
     
-    @Temporal(javax.persistence.TemporalType.DATE)
-    @Column(name = "calendar_date")
-    private java.util.Calendar CalendarDate;
+    @Temporal(javax.persistence.TemporalType.TIMESTAMP)
+    @Column(name = "collection_timestamp")
+    private java.util.Date CollectionTimestamp;
     
     @Column(name = "complaints")
     private Integer Complaints;
@@ -49,14 +50,14 @@ public class ServiceHistoryDTO implements Serializable {
         this.Service = Service;
     }
 
-    public Calendar getCalendarDate() {
-        return CalendarDate;
+    public Date getCollectionTimestamp() {
+        return CollectionTimestamp;
     }
 
-    public void setCalendarDate(Calendar CalendarDate) {
-        this.CalendarDate = CalendarDate;
+    public void setCollectionTimestamp(Date CollectionTimestamp) {
+        this.CollectionTimestamp = CollectionTimestamp;
     }
-
+    
     public Integer getComplaints() {
         return Complaints;
     }

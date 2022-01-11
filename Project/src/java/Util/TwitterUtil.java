@@ -23,7 +23,7 @@ import org.json.simple.parser.ParseException;
  * @author Gabriel Inácio <gabrielinacio@id.uff.br>
  */
 public class TwitterUtil {
-    private final static String BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAMNlRAEAAAAAGvhVUO4aPIf%2F5CeWXFKvmaLUIQQ%3DpgumI8KAugMd8FwM2MSxl3wPWdS26bs7JVvAQr0wfQuDeHmWWC";
+    private static final String BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAMNlRAEAAAAAGvhVUO4aPIf%2F5CeWXFKvmaLUIQQ%3DpgumI8KAugMd8FwM2MSxl3wPWdS26bs7JVvAQr0wfQuDeHmWWC";
     
     public Integer getComplaintCount(String query) throws URISyntaxException, IOException, ParseException {
         Integer complaintCount = 0;
