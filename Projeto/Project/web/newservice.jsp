@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 09/01/2022, 13:52:48
-    Author     : gabriel
+    Author     : ricardo
 --%>
 
 <%@page import="Model.ServiceHistoryModel"%>
@@ -38,14 +38,14 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.jsp">Home <span class="sr-only">(Página atual)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="index.jsp">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="usuario.jsp">Usuários</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="servico.jsp">Serviços</a>
+        <a class="nav-link active" href="servico.jsp">Serviços <span class="sr-only">(Página atual)</span></a>
       </li>
     </ul>
   </div>
