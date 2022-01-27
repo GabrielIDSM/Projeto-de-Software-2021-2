@@ -39,7 +39,7 @@
                         <a class="nav-link" href="usuario.jsp">Usuários <span class="sr-only">(Página atual)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="servico.jsp">Serviços</a>
+                        <a class="nav-link" href="Service">Serviços</a>
                     </li>
                 </ul>
             </div>

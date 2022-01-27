@@ -4,8 +4,12 @@
  */
 package Controller;
 
+import Model.ServiceModel;
+import Repository.ServiceRepository;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -31,6 +35,7 @@ public class ServiceController extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         try ( PrintWriter out = response.getWriter()) {
+            services(request, response);
            
         }
     }
@@ -73,5 +78,11 @@ public class ServiceController extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
-
+    private void services(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+        ServiceRepository serviceRepository = new ServiceRepository();
+        List<ServiceModel> serviceModelList = serviceRepository.allModel();
+        request.setAttribute("services", serviceModelList);
+        RequestDispatcher rd = request.getRequestDispatcher("/services.jsp");
+        rd.forward(request, response);
+    }
 }

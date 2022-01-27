@@ -3,6 +3,7 @@ package Repository;
 import DAO.UserDAO;
 import DTO.UserDTO;
 import Util.PasswordUtil;
+import java.util.List;
 
 /**
  *
@@ -39,4 +40,11 @@ public class UserRepository extends Repository<UserDTO> {
         object.setPassword(passwordAuthentication.hash(object.getPassword().toCharArray()));
         return add(object);
     }
+    
+    public List<UserDTO> all() {
+        UserDAO objectDAO = new UserDAO();
+        List<UserDTO> list = objectDAO.all();
+        return list;
+    }
+    
 }

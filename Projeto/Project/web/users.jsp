@@ -4,13 +4,17 @@
     Author     : ricardo
 --%>
 
+<%@page import="DTO.UserDTO"%>
 <%@page import="Model.ServiceHistoryModel"%>
 <%@page import="Model.ServiceModel"%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="Repository.ServiceRepository"%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<%
+    List<UserDTO> userDTOList = (List<UserDTO>) request.getAttribute("users");
+%>
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
@@ -39,14 +43,47 @@
                         <a class="nav-link" href="usuario.jsp">Usuários <span class="sr-only">(Página atual)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="servico.jsp">Serviços</a>
+                        <a class="nav-link" href="Service">Serviços</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <div class="album py-5">
             <div class="container">
-
+                <center>
+                    <a class="btn btn-success"><i class="fa fa-plus"></i> Cadastrar um Usuario</a>
+                </center>
+                <h3>Serviços sendo monitorados:</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Role</th>
+                            <th scope="col">Açoes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% for (UserDTO userDTO : userDTOList) {%>
+                        <tr>
+                            <td>
+                                <%= userDTO.getId()%>
+                            </td>
+                            <td>
+                                <%= userDTO.getUsername() %>
+                            </td>
+                            <td>
+                                <%= userDTO.getRole()%>
+                            </td>
+                            <td>
+                                <a class="btn btn-outline-success"><i class="fa fa-eye"></i> Alterar Papel do Usuario</a>
+                                <a class="btn btn-outline-primary"><i class="fa fa-edit"></i> Editar Usuario</a>
+                                <a class="btn btn-outline-danger"><i class="fa fa-trash"></i> Excluir Usuario</a>
+                            </td>
+                        </tr>
+                        <% }%>
+                    </tbody>
+                </table>
             </div>
         </div>
     </body>

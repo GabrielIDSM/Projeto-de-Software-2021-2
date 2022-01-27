@@ -98,6 +98,7 @@ public class UserDAO implements DAO<UserDTO> {
         }finally{
             entityManager.close();
         }
+        System.out.println(list.size());
         return list;
     }
 }

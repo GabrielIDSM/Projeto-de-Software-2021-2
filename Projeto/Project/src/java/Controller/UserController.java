@@ -4,8 +4,13 @@
  */
 package Controller;
 
+import DTO.RoleDTO;
+import DTO.UserDTO;
+import Repository.UserRepository;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -31,7 +36,7 @@ public class UserController extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         try ( PrintWriter out = response.getWriter()) {
-           
+           users(request, response);
         }
     }
 
@@ -74,4 +79,25 @@ public class UserController extends HttpServlet {
         return "Short description";
     }// </editor-fold>
 
+    private void users(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+        UserRepository userRepository = new UserRepository();
+        List<UserDTO> userDTOList = userRepository.all();
+        request.setAttribute("users", userDTOList);
+        RequestDispatcher rd = request.getRequestDispatcher("/users.jsp");
+        rd.forward(request, response);
+    }
+    
+    private void createUser(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+        
+        UserDTO userDTO = new UserDTO();
+        userDTO.setUsername("teste");
+        userDTO.setPassword("sysoperator");
+        RoleDTO roleDTO = null;
+        userDTO.setRole(roleDTO);
+        UserRepository userRepository = new UserRepository();
+        if (userRepository.createUser(userDTO)) System.out.println("User '" + userDTO.getUsername() + "' has been created");
+        
+        RequestDispatcher rd = request.getRequestDispatcher("/users.jsp");
+        rd.forward(request, response);
+    }
 }
