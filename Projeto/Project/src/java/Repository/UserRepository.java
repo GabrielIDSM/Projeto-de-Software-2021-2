@@ -2,7 +2,11 @@ package Repository;
 
 import DAO.UserDAO;
 import DTO.UserDTO;
+import Model.RoleModel;
+import Model.UserModel;
 import Util.PasswordUtil;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -47,4 +51,41 @@ public class UserRepository extends Repository<UserDTO> {
         return list;
     }
     
+    public List<UserModel> allModel() {
+        UserDAO objectDAO = new UserDAO();
+        List<UserDTO> users = objectDAO.all();
+        List<UserModel> list = new ArrayList<>();
+        users.stream().map((user) -> {
+            UserModel userModel = new UserModel();
+            RoleModel roleModel = new RoleModel();
+            roleModel.setId(user.getRole().getId());
+            roleModel.setName(user.getRole().getName());
+            userModel.setId(user.getId());
+            userModel.setUsername(user.getUsername());
+            userModel.setRole(roleModel);
+            return userModel;
+        }).forEachOrdered((userModel) -> {
+            list.add(userModel);
+        });
+        return list;
+    }
+    
+    public UserModel login(String username, String password) {
+        PasswordUtil passwordAuthentication = new PasswordUtil();
+        List<UserDTO> users = all();
+        for (UserDTO user : users) { 
+            if (user.getUsername().equals(username) &&
+                    passwordAuthentication.authenticate(password.toCharArray(), user.getPassword())) {
+                UserModel userModel = new UserModel();
+                RoleModel roleModel = new RoleModel();
+                roleModel.setId(user.getRole().getId());
+                roleModel.setName(user.getRole().getName());
+                userModel.setId(user.getId());
+                userModel.setUsername(user.getUsername());
+                userModel.setRole(roleModel);
+                return userModel;
+            }
+        }
+        return null;
+    }
 }

@@ -13,6 +13,7 @@ public class ServiceModel {
 
     private Integer Id;
     private String Name;
+    private String Query;
     private String imageFileName;
     private List<ServiceHistoryModel> historyList;
 
@@ -30,6 +31,14 @@ public class ServiceModel {
 
     public void setName(String Name) {
         this.Name = Name;
+    }
+
+    public String getQuery() {
+        return Query;
+    }
+
+    public void setQuery(String Query) {
+        this.Query = Query;
     }
 
     public String getImageFileName() {

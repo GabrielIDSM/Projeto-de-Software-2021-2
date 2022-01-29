@@ -4,6 +4,7 @@
     Author     : gabriel
 --%>
 
+<%@page import="Model.UserModel"%>
 <%@page import="Model.ServiceHistoryModel"%>
 <%@page import="Model.ServiceModel"%>
 <%@page import="java.util.List"%>
@@ -31,6 +32,9 @@
         <title>Is Down ?</title>
     </head>
     <body>
+        <%
+            UserModel user = (UserModel) session.getAttribute("user");
+        %>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.jsp">Is Down ?</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
@@ -41,18 +45,32 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="index.jsp">Página Inicial<span class="sr-only">(Página atual)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="User">Usuários</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Service">Serviços</a>
-                    </li>
+                    <%
+                        if (user != null) {
+                    %>
+                        <li class="nav-item">
+                            <a class="nav-link" href="User">Usuários</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Service">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="User?a=logout">Logout</a>
+                        </li>
+                    <%
+                        } else {
+                    %>
+                        <li class="nav-item">
+                            <a class="nav-link" href="User?a=login">Login</a>
+                        </li>
+                    <%
+                        }
+                    %>
                 </ul>
             </div>
         </nav>
         <div class="album py-5">
             <div class="container">
-                
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
                     <%
                         for(ServiceModel serviceModel : serviceModelList) {
@@ -99,5 +117,6 @@
                 </div>
             </div>
         </div>
+        <%@include file="components/commonscript.html" %>
     </body>
 </html>

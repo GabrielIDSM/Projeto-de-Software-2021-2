@@ -36,4 +36,9 @@ public class ImageRepository extends Repository<ImageDTO> {
     public Boolean addImage(ImageDTO object) {
         return add(object);
     }
+    
+    public Boolean updateImage(ImageDTO object) {
+        ImageDAO objectDAO = new ImageDAO();
+        return objectDAO.update(object);
+    }
 }

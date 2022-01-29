@@ -1,14 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package Controller;
 
 import Model.ServiceModel;
 import Repository.ServiceRepository;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.List;
+import java.util.ArrayList;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,71 +13,121 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author Ricardo
+ * @author Gabriel Inácio <gabrielinacio@id.uff.br>
  */
 @WebServlet(name = "Service", urlPatterns = {"/Service"})
 public class ServiceController extends HttpServlet {
-
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        try ( PrintWriter out = response.getWriter()) {
-            services(request, response);
-           
-        }
-    }
-
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
-    /**
-     * Handles the HTTP <code>GET</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        
+        RequestDispatcher page;
+        String action = (String) request.getParameter("a");
+        Integer serviceId;
+        ServiceModel serviceModel = new ServiceModel();
+        ServiceRepository serviceRepository = new ServiceRepository();
+        
+        if (action == null)
+            action = "";
+        
+        switch(action) {
+            case "create":
+                serviceModel.setId(0);
+                serviceModel.setName("");
+                serviceModel.setQuery("");
+                serviceModel.setImageFileName("");
+                serviceModel.setHistoryList(new ArrayList<>());
+                
+                request.setAttribute("service", serviceModel);
+                page = getServletContext().getRequestDispatcher("/createservice.jsp");
+                page.forward(request, response);
+                break;
+                
+            case "update":
+                serviceId = Integer.parseInt(request.getParameter("id"));
+                serviceModel = serviceRepository.getModel(serviceId);
+                
+                request.setAttribute("service", serviceModel);
+                page = getServletContext().getRequestDispatcher("/updateservice.jsp");
+                page.forward(request, response);
+                break;
+            case "delete":
+                serviceId = Integer.parseInt(request.getParameter("id"));
+                serviceRepository.deleteModel(serviceId);
+                
+                page = getServletContext().getRequestDispatcher("/services.jsp");
+                page.forward(request, response);
+                break;
+                
+            default:
+                page = getServletContext().getRequestDispatcher("/services.jsp");
+                page.forward(request, response);
+        }
     }
 
-    /**
-     * Handles the HTTP <code>POST</code> method.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
-    }
 
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
-    @Override
-    public String getServletInfo() {
-        return "Short description";
-    }// </editor-fold>
-    private void services(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-        ServiceRepository serviceRepository = new ServiceRepository();
-        List<ServiceModel> serviceModelList = serviceRepository.allModel();
-        request.setAttribute("services", serviceModelList);
-        RequestDispatcher rd = request.getRequestDispatcher("/services.jsp");
-        rd.forward(request, response);
+        String message = "";
+        RequestDispatcher page;
+        
+        try {
+            String action = (String) request.getParameter("a");
+            ServiceModel serviceModel = new ServiceModel();
+            ServiceRepository serviceRepository = new ServiceRepository();
+            
+            if (action == null)
+                action = "";
+            
+            switch(action) {
+                case "submit":
+                    if (request.getParameter("id") == null) {
+                        message = "O campo 'Id' não existe";
+                    }
+                    
+                    if (request.getParameter("name").equals("")) {
+                        message = "O campo 'Nome' não foi preenchido";
+                    }
+                    
+                    if (request.getParameter("query").equals("")) {
+                        message = "O campo 'Query' não foi preenchido";
+                    }
+                    
+                    if (request.getParameter("image").equals("")) {
+                        message = "O campo 'Imagem' não foi preenchido";
+                    }
+                    
+                    if (!message.equals("")) {
+                        serviceModel.setId(Integer.parseInt(request.getParameter("id")));
+                        serviceModel.setName(request.getParameter("name"));
+                        serviceModel.setQuery(request.getParameter("query"));
+                        serviceModel.setImageFileName(request.getParameter("image"));
+                    
+                        if (serviceModel.getId() == 0) {
+                            if (!serviceRepository.addService(serviceModel))
+                                message = "Serviço não adicionado";
+                        } else {
+                            if (!serviceRepository.updateService(serviceModel))
+                                message = "Serviço não adicionado";
+                        }
+                    }
+                    
+                    request.setAttribute("message", message);
+                    
+                    page = getServletContext().getRequestDispatcher("/services.jsp");
+                    page.forward(request, response);
+                    break;
+                    
+                default:
+                    page = getServletContext().getRequestDispatcher("/services.jsp");
+                    page.forward(request, response);
+            }
+        } catch(IOException | NumberFormatException | ServletException e) {
+            System.out.println("Error: " + e.getMessage());
+        } finally {
+            page = getServletContext().getRequestDispatcher("/services.jsp");
+            page.forward(request, response);
+        }
     }
 }

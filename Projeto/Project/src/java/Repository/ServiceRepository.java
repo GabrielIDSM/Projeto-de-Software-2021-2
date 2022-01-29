@@ -1,6 +1,7 @@
 package Repository;
 
 import DAO.ServiceDAO;
+import DTO.ImageDTO;
 import DTO.ServiceDTO;
 import Model.ServiceModel;
 import java.util.ArrayList;
@@ -36,6 +37,11 @@ public class ServiceRepository extends Repository<ServiceDTO> {
         return objectDAO.delete(object.getId());
     }
     
+    protected Boolean remove(Integer id) {
+        ServiceDAO objectDAO = new ServiceDAO();
+        return objectDAO.delete(id);
+    }
+    
     public List<ServiceDTO> all() {
         ServiceDAO objectDAO = new ServiceDAO();
         List<ServiceDTO> list = objectDAO.all();
@@ -50,6 +56,7 @@ public class ServiceRepository extends Repository<ServiceDTO> {
             ServiceModel serviceModel = new ServiceModel();
             serviceModel.setId(serviceDTO.getId());
             serviceModel.setName(serviceDTO.getName());
+            serviceModel.setQuery(serviceDTO.getName());
             serviceModel.setImageFileName(serviceDTO.getImage().getFileName());
             serviceModel.setHistoryList(serviceHistoryRepository.all(serviceDTO.getId()));
             return serviceModel;
@@ -61,5 +68,44 @@ public class ServiceRepository extends Repository<ServiceDTO> {
     
     public Boolean addService(ServiceDTO object) {
         return add(object); 
+    }
+    
+    public Boolean addService(ServiceModel object) {
+        ImageRepository imageRepository = new ImageRepository();
+        ServiceDTO serviceDTO = new ServiceDTO();
+        ImageDTO imageDTO = new ImageDTO();
+        imageDTO.setFileName(object.getImageFileName());
+        serviceDTO.setName(object.getName());
+        serviceDTO.setQuery(object.getQuery());
+        serviceDTO.setImage(imageDTO);
+        return imageRepository.addImage(imageDTO) && add(serviceDTO);
+    }
+    
+    public Boolean updateService(ServiceModel object) {
+        ImageRepository imageRepository = new ImageRepository();
+        ServiceDTO serviceDTO = new ServiceDTO();
+        ImageDTO imageDTO = new ImageDTO();
+        imageDTO.setFileName(object.getImageFileName());
+        serviceDTO.setId(object.getId());
+        serviceDTO.setName(object.getName());
+        serviceDTO.setQuery(object.getQuery());
+        serviceDTO.setImage(imageDTO);
+        return imageRepository.updateImage(imageDTO) && update(serviceDTO);
+    }
+    
+    public ServiceModel getModel(Integer id) {
+        ServiceHistoryRepository serviceHistoryRepository = new ServiceHistoryRepository();
+        ServiceDTO serviceDTO = get(id);
+        ServiceModel serviceModel = new ServiceModel();
+        serviceModel.setId(serviceDTO.getId());
+        serviceModel.setName(serviceDTO.getName());
+        serviceModel.setQuery(serviceDTO.getQuery());
+        serviceModel.setImageFileName(serviceDTO.getImage().getFileName());
+        serviceModel.setHistoryList(serviceHistoryRepository.all(serviceDTO.getId()));
+        return serviceModel;
+    }
+    
+    public Boolean deleteModel(Integer id) {
+        return remove(id);
     }
 }

@@ -4,6 +4,7 @@
     Author     : ricardo
 --%>
 
+<%@page import="Repository.UserRepository"%>
 <%@page import="DTO.UserDTO"%>
 <%@page import="Model.ServiceHistoryModel"%>
 <%@page import="Model.ServiceModel"%>
@@ -13,8 +14,10 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%
-    List<UserDTO> userDTOList = (List<UserDTO>) request.getAttribute("users");
+    UserRepository userRepository = new UserRepository();
+    List<UserModel> userModelList = userRepository.allModel();
 %>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
@@ -29,6 +32,7 @@
         <title>Is Down ?</title>
     </head>
     <body>
+        <%@include file="components/session.jsp" %>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.jsp">Is Down ?</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
@@ -45,10 +49,24 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Service">Serviços</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="User?a=logout">Logout</a>
+                    </li>
                 </ul>
             </div>
         </nav>
         <div class="album py-5">
+            <%                       
+                if (request.getAttribute("message") != null) {
+            %>
+                <div class="d-flex justify-content-center">
+                    <div class="alert w-25 p-3 d-flex justify-content-center" role="alert">
+                        <%= (String) request.getAttribute("message") %>
+                    </div>
+                </div>
+            <%
+                }
+            %>
             <div class="container">
                 <a class="btn btn-success"><i class="fa fa-plus"></i> Novo </a>
                 <br/>
@@ -63,16 +81,16 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <% for (UserDTO userDTO : userDTOList) {%>
+                        <% for (UserModel userModel : userModelList) {%>
                         <tr>
                             <td>
-                                <%= userDTO.getId()%>
+                                <%= userModel.getId()%>
                             </td>
                             <td>
-                                <%= userDTO.getUsername() %>
+                                <%= userModel.getUsername() %>
                             </td>
                             <td>
-                                <%= userDTO.getRole().getName() %>
+                                <%= userModel.getRole().getName() %>
                             </td>
                             <td>
                                 <a class="btn btn-outline-primary"><i class="fa fa-edit"></i> Editar </a>
@@ -84,5 +102,6 @@
                 </table>
             </div>
         </div>
+        <%@include file="components/commonscript.html" %>
     </body>
 </html>
