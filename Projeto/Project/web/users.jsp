@@ -30,14 +30,14 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.jsp">IsDown</a>
+            <a class="navbar-brand" href="index.jsp">Is Down ?</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.jsp">Home</a>
+                        <a class="nav-link" href="index.jsp">Página Inicial</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="User">Usuários <span class="sr-only">(Página atual)</span></a>
@@ -50,17 +50,16 @@
         </nav>
         <div class="album py-5">
             <div class="container">
-                <center>
-                    <a class="btn btn-success"><i class="fa fa-plus"></i> Cadastrar um Usuario</a>
-                </center>
-                <h3>Serviços sendo monitorados:</h3>
+                <a class="btn btn-success"><i class="fa fa-plus"></i> Novo </a>
+                <br/>
+                <br/>
                 <table class="table table-striped">
                     <thead>
                         <tr>
                             <th scope="col">ID</th>
                             <th scope="col">Nome</th>
-                            <th scope="col">Role</th>
-                            <th scope="col">Açoes</th>
+                            <th scope="col">Função</th>
+                            <th scope="col">Ações</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -73,12 +72,11 @@
                                 <%= userDTO.getUsername() %>
                             </td>
                             <td>
-                                <%= userDTO.getRole()%>
+                                <%= userDTO.getRole().getName() %>
                             </td>
                             <td>
-                                <a class="btn btn-outline-success"><i class="fa fa-eye"></i> Alterar Papel do Usuario</a>
-                                <a class="btn btn-outline-primary"><i class="fa fa-edit"></i> Editar Usuario</a>
-                                <a class="btn btn-outline-danger"><i class="fa fa-trash"></i> Excluir Usuario</a>
+                                <a class="btn btn-outline-primary"><i class="fa fa-edit"></i> Editar </a>
+                                <a class="btn btn-outline-danger"><i class="fa fa-trash"></i> Excluir </a>
                             </td>
                         </tr>
                         <% }%>
