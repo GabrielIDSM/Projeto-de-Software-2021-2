@@ -82,7 +82,7 @@ public class ServiceController extends HttpServlet {
             
             switch(action) {
                 case "submit":
-                    if (request.getParameter("id") == null) {
+                    if (request.getParameter("id").equals("")) {
                         message = "O campo 'Id' não existe";
                     }
                     
@@ -98,7 +98,7 @@ public class ServiceController extends HttpServlet {
                         message = "O campo 'Imagem' não foi preenchido";
                     }
                     
-                    if (!message.equals("")) {
+                    if (message.equals("")) {
                         serviceModel.setId(Integer.parseInt(request.getParameter("id")));
                         serviceModel.setName(request.getParameter("name"));
                         serviceModel.setQuery(request.getParameter("query"));
@@ -109,7 +109,7 @@ public class ServiceController extends HttpServlet {
                                 message = "Serviço não adicionado";
                         } else {
                             if (!serviceRepository.updateService(serviceModel))
-                                message = "Serviço não adicionado";
+                                message = "Serviço não alterado";
                         }
                     }
                     
@@ -125,9 +125,6 @@ public class ServiceController extends HttpServlet {
             }
         } catch(IOException | NumberFormatException | ServletException e) {
             System.out.println("Error: " + e.getMessage());
-        } finally {
-            page = getServletContext().getRequestDispatcher("/services.jsp");
-            page.forward(request, response);
         }
     }
 }

@@ -71,6 +71,7 @@ public class ServiceRepository extends Repository<ServiceDTO> {
     }
     
     public Boolean addService(ServiceModel object) {
+        Boolean opStatus;
         ImageRepository imageRepository = new ImageRepository();
         ServiceDTO serviceDTO = new ServiceDTO();
         ImageDTO imageDTO = new ImageDTO();
@@ -78,19 +79,19 @@ public class ServiceRepository extends Repository<ServiceDTO> {
         serviceDTO.setName(object.getName());
         serviceDTO.setQuery(object.getQuery());
         serviceDTO.setImage(imageDTO);
-        return imageRepository.addImage(imageDTO) && add(serviceDTO);
+        opStatus = imageRepository.addImage(imageDTO);
+        if (opStatus)
+            opStatus = add(serviceDTO);
+        return opStatus;
     }
     
     public Boolean updateService(ServiceModel object) {
-        ImageRepository imageRepository = new ImageRepository();
-        ServiceDTO serviceDTO = new ServiceDTO();
-        ImageDTO imageDTO = new ImageDTO();
-        imageDTO.setFileName(object.getImageFileName());
+        ServiceDTO serviceDTO = get(object.getId());
         serviceDTO.setId(object.getId());
         serviceDTO.setName(object.getName());
         serviceDTO.setQuery(object.getQuery());
-        serviceDTO.setImage(imageDTO);
-        return imageRepository.updateImage(imageDTO) && update(serviceDTO);
+        serviceDTO.getImage().setFileName(object.getImageFileName());
+        return update(serviceDTO);
     }
     
     public ServiceModel getModel(Integer id) {
@@ -106,6 +107,12 @@ public class ServiceRepository extends Repository<ServiceDTO> {
     }
     
     public Boolean deleteModel(Integer id) {
-        return remove(id);
+        Boolean opStatus;
+        ImageRepository imageRepository = new ImageRepository();
+        ServiceDTO serviceDTO = get(id);
+        opStatus = remove(id);
+        if (opStatus)
+            opStatus = imageRepository.removeImage(serviceDTO.getImage());
+        return opStatus;
     }
 }

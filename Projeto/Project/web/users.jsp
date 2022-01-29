@@ -60,7 +60,7 @@
                 if (request.getAttribute("message") != null) {
             %>
                 <div class="d-flex justify-content-center">
-                    <div class="alert w-25 p-3 d-flex justify-content-center" role="alert">
+                    <div class="alert alert-primary w-25 p-3 d-flex justify-content-center" role="alert">
                         <%= (String) request.getAttribute("message") %>
                     </div>
                 </div>

@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <div class="container">
     <form method="POST" action="Service?a=submit">
-        <input type="hidden" name="id" id="id" value="<% serviceModel.getId(); %>">
+        <input type="hidden" name="id" id="id" value="<%= serviceModel.getId() %>">
         
         <div class="form-group">
             <label for="name"><b> Nome </b></label>

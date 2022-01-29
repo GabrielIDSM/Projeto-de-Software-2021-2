@@ -33,6 +33,11 @@ public class ImageRepository extends Repository<ImageDTO> {
         return objectDAO.delete(object.getId());
     }
     
+    protected Boolean remove(Integer id) {
+        ImageDAO objectDAO = new ImageDAO();
+        return objectDAO.delete(id);
+    }
+    
     public Boolean addImage(ImageDTO object) {
         return add(object);
     }
@@ -40,5 +45,9 @@ public class ImageRepository extends Repository<ImageDTO> {
     public Boolean updateImage(ImageDTO object) {
         ImageDAO objectDAO = new ImageDAO();
         return objectDAO.update(object);
+    }
+    
+    public Boolean removeImage(ImageDTO object) {
+        return remove(object.getId());
     }
 }
