@@ -20,6 +20,7 @@
     </head>
     <body>
         <%@include file="components/session.jsp" %>
+        <%@include file="components/administrator.jsp" %>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.jsp">Is Down ?</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">

@@ -1,11 +1,10 @@
 <%-- 
-    Document   : createservice
-    Created on : 29/01/2022, 16:29:15
+    Document   : updateuser
+    Created on : 30/01/2022, 11:54:00
     Author     : Gabriel Inácio <gabrielinacio@id.uff.br>
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -55,10 +54,7 @@
         </nav>
         <div class="album py-5">
             <div class="container">
-                <h3> Criar serviço </h3>
-                <br/>
-                <br/>
-                <jsp:include page="components/serviceform.jsp" />
+                
             </div>
         </div>
         <%@include file="components/commonscript.html" %>
