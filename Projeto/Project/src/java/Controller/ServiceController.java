@@ -40,6 +40,15 @@ public class ServiceController extends HttpServlet {
             action = "";
         
         switch(action) {
+            case "show":
+                serviceId = Integer.parseInt(request.getParameter("id"));
+                serviceModel = serviceRepository.getModel(serviceId);
+                
+                request.setAttribute("service", serviceModel);
+                page = getServletContext().getRequestDispatcher("/service.jsp");
+                page.forward(request, response);
+                break;
+                
             case "create":
                 serviceModel.setId(0);
                 serviceModel.setName("");

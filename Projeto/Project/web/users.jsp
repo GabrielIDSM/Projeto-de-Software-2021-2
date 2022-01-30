@@ -43,12 +43,21 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.jsp">Página Inicial</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="User">Usuários <span class="sr-only">(Página atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Service">Serviços</a>
-                    </li>
+                    <%
+                        if (user != null) {
+                            if (user.getRole().getName().compareTo("Administrator") == 0) {
+                    %>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="User">Usuários <span class="sr-only">(Página atual)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Service">Serviços</a>
+                                </li>
+                    <%
+                                                    
+                            }
+                        }
+                    %>
                     <li class="nav-item">
                         <a class="nav-link" href="User?a=logout">Logout</a>
                     </li>

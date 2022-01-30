@@ -12,6 +12,10 @@
     overflow: hidden;
 }
 
+.isdown-card:hover {
+    cursor: pointer;
+}
+
 .isdown-image-div {
     margin: 2rem auto;
     display: inline-block;

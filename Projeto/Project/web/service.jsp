@@ -1,9 +1,11 @@
 <%-- 
-    Document   : imageservice
-    Created on : 29/01/2022, 22:58:35
+    Document   : service
+    Created on : 30/01/2022, 01:50:11
     Author     : Gabriel Inácio <gabrielinacio@id.uff.br>
 --%>
 
+<%@page import="Model.ServiceModel"%>
+<%@page import="Model.UserModel"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -19,7 +21,10 @@
         <title>Is Down ?</title>
     </head>
     <body>
-        <%@include file="components/session.jsp" %>
+        <%
+            ServiceModel service = (ServiceModel) request.getAttribute("service");
+            UserModel user = (UserModel) session.getAttribute("user");
+        %>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.jsp">Is Down ?</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
@@ -37,26 +42,33 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="User">Usuários</a>
                                 </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="Service">Serviços<span class="sr-only">(Página atual)</span></a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Service">Serviços</a>
                                 </li>
                     <%
                                                     
                             }
+                    %>
+                        <li class="nav-item">
+                            <a class="nav-link" href="User?a=logout">Logout</a>
+                        </li>
+                    <%
+                        } else {
+                    %>
+                        <li class="nav-item">
+                            <a class="nav-link" href="User?a=login">Login</a>
+                        </li>
+                    <%
                         }
                     %>
-                    <li class="nav-item">
-                        <a class="nav-link" href="User?a=logout">Logout</a>
-                    </li>
                 </ul>
             </div>
         </nav>
         <div class="album py-5">
             <div class="container">
-                <h3> Nova imagem </h3>
+                <h3><%= service.getName() %></h3>
                 <br/>
                 <br/>
-                <jsp:include page="components/newimage.jsp" />
             </div>
         </div>
         <%@include file="components/commonscript.html" %>

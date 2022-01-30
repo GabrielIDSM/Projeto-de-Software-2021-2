@@ -47,13 +47,18 @@
                     </li>
                     <%
                         if (user != null) {
+                            if (user.getRole().getName().compareTo("Administrator") == 0) {
                     %>
-                        <li class="nav-item">
-                            <a class="nav-link" href="User">Usuários</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Service">Serviços</a>
-                        </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="User">Usuários</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Service">Serviços</a>
+                                </li>
+                    <%
+                                                    
+                            }
+                    %>
                         <li class="nav-item">
                             <a class="nav-link" href="User?a=logout">Logout</a>
                         </li>
@@ -95,7 +100,7 @@
                             else message = "reclamações na última hora";
                     %>
                     <div class="col">
-                        <div class="card shadow-sm isdown-round">
+                        <div class="card shadow-sm isdown-round isdown-card" onclick="location.href='Service?a=show&id=<%= serviceModel.getId() %>';">
                             <div class="<%= dropDivClass %> isdown-default-div">
                                 <div class="isdown-down-content-div">
                                     <p><%= lastComplaintCount %> <%= message %></p>
