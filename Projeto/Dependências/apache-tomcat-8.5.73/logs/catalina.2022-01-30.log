@@ -1,0 +1,561 @@
+30-Jan-2022 00:04:56.081 WARN [http-nio-8080-exec-153] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:04:56.081 ERROR [http-nio-8080-exec-153] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:04:56.083 INFO [http-nio-8080-exec-153] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:06:02.511 WARN [http-nio-8080-exec-150] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:06:02.511 ERROR [http-nio-8080-exec-150] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:06:02.512 INFO [http-nio-8080-exec-150] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:07:09.861 WARN [http-nio-8080-exec-156] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:07:09.861 ERROR [http-nio-8080-exec-156] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:07:09.861 INFO [http-nio-8080-exec-156] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:08:34.755 WARN [http-nio-8080-exec-150] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:08:34.756 ERROR [http-nio-8080-exec-150] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:08:34.756 INFO [http-nio-8080-exec-150] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:09:21.579 WARN [http-nio-8080-exec-155] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:09:21.579 ERROR [http-nio-8080-exec-155] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:09:21.579 INFO [http-nio-8080-exec-155] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:28:59.278 WARN [http-nio-8080-exec-149] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:28:59.279 ERROR [http-nio-8080-exec-149] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:28:59.279 INFO [http-nio-8080-exec-149] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:29:35.407 WARN [http-nio-8080-exec-149] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:29:35.407 ERROR [http-nio-8080-exec-149] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:29:35.408 INFO [http-nio-8080-exec-149] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:33:11.988 WARN [http-nio-8080-exec-157] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:33:11.988 ERROR [http-nio-8080-exec-157] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:33:11.989 INFO [http-nio-8080-exec-157] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:36:03.695 INFORMAÇÕES [http-nio-8080-exec-151] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 00:36:03.699 ADVERTÊNCIA [http-nio-8080-exec-151] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 00:36:03.700 ADVERTÊNCIA [http-nio-8080-exec-151] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 00:36:03.749 INFORMAÇÕES [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.http.impl.conn.PoolingHttpClientConnectionManager$2]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.http.impl.conn.PoolingHttpClientConnectionManager$2]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1435)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1423)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1262)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1223)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:413)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.finalize(PoolingHttpClientConnectionManager.java:207)
+		at java.lang.System$2.invokeFinalize(System.java:1270)
+		at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+		at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+		at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+30-Jan-2022 00:36:04.980 INFORMAÇÕES [http-nio-8080-exec-151] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 00:36:04.985 INFORMAÇÕES [http-nio-8080-exec-151] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 00:36:07.212 INFO [http-nio-8080-exec-155] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 00:36:07.373 INFO [http-nio-8080-exec-155] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 00:36:07.802 INFO [http-nio-8080-exec-155] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 00:36:08.172 WARN [http-nio-8080-exec-155] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 00:36:08.179 INFO [http-nio-8080-exec-155] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 00:36:08.180 INFO [http-nio-8080-exec-155] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 00:36:08.180 INFO [http-nio-8080-exec-155] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 00:36:08.185 INFO [http-nio-8080-exec-155] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 00:36:08.414 INFO [http-nio-8080-exec-155] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 00:36:08.498 INFO [http-nio-8080-exec-155] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 00:36:09.862 INFO [http-nio-8080-exec-155] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7be84f51] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 00:36:10.342 INFO [http-nio-8080-exec-155] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 00:36:37.880 WARN [http-nio-8080-exec-148] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:36:37.881 ERROR [http-nio-8080-exec-148] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:36:37.882 INFO [http-nio-8080-exec-148] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:37:01.109 INFORMAÇÕES [http-nio-8080-exec-165] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 00:37:01.112 ADVERTÊNCIA [http-nio-8080-exec-165] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 00:37:01.112 ADVERTÊNCIA [http-nio-8080-exec-165] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 00:37:02.244 INFORMAÇÕES [http-nio-8080-exec-165] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 00:37:02.249 INFORMAÇÕES [http-nio-8080-exec-165] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 00:39:57.682 INFO [http-nio-8080-exec-166] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 00:39:57.816 INFO [http-nio-8080-exec-166] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 00:39:58.246 INFO [http-nio-8080-exec-166] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 00:39:58.692 WARN [http-nio-8080-exec-166] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 00:39:58.700 INFO [http-nio-8080-exec-166] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 00:39:58.700 INFO [http-nio-8080-exec-166] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 00:39:58.700 INFO [http-nio-8080-exec-166] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 00:39:58.707 INFO [http-nio-8080-exec-166] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 00:39:58.962 INFO [http-nio-8080-exec-166] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 00:39:59.060 INFO [http-nio-8080-exec-166] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 00:40:00.492 INFO [http-nio-8080-exec-166] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@249ec02a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 00:40:00.957 INFO [http-nio-8080-exec-166] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 00:40:01.212 WARN [http-nio-8080-exec-166] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:40:01.213 ERROR [http-nio-8080-exec-166] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:40:01.215 INFO [http-nio-8080-exec-166] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:40:16.505 WARN [http-nio-8080-exec-161] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:40:16.505 ERROR [http-nio-8080-exec-161] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:40:16.506 INFO [http-nio-8080-exec-161] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:41:39.249 INFORMAÇÕES [http-nio-8080-exec-172] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 00:41:39.253 ADVERTÊNCIA [http-nio-8080-exec-172] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 00:41:39.253 ADVERTÊNCIA [http-nio-8080-exec-172] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 00:41:40.510 INFORMAÇÕES [http-nio-8080-exec-172] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 00:41:40.516 INFORMAÇÕES [http-nio-8080-exec-172] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 00:41:54.655 INFO [http-nio-8080-exec-169] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 00:41:54.811 INFO [http-nio-8080-exec-169] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 00:41:55.251 INFO [http-nio-8080-exec-169] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 00:41:55.624 WARN [http-nio-8080-exec-169] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 00:41:55.632 INFO [http-nio-8080-exec-169] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 00:41:55.632 INFO [http-nio-8080-exec-169] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 00:41:55.632 INFO [http-nio-8080-exec-169] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 00:41:55.638 INFO [http-nio-8080-exec-169] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 00:41:55.870 INFO [http-nio-8080-exec-169] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 00:41:55.957 INFO [http-nio-8080-exec-169] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 00:41:57.306 INFO [http-nio-8080-exec-169] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@30d1cd28] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 00:41:57.767 INFO [http-nio-8080-exec-169] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 00:42:25.229 WARN [http-nio-8080-exec-174] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 00:42:25.230 ERROR [http-nio-8080-exec-174] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 00:42:25.231 INFO [http-nio-8080-exec-174] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 00:42:58.530 INFORMAÇÕES [http-nio-8080-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 00:42:58.534 ADVERTÊNCIA [http-nio-8080-exec-178] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 00:42:58.537 ADVERTÊNCIA [http-nio-8080-exec-178] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [pool-52-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 00:42:58.537 ADVERTÊNCIA [http-nio-8080-exec-178] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 00:42:59.654 INFORMAÇÕES [http-nio-8080-exec-178] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 00:42:59.659 INFORMAÇÕES [http-nio-8080-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:01:01.129 INFO [pool-53-thread-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 01:01:01.256 INFO [pool-53-thread-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 01:01:01.654 INFO [pool-53-thread-1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 01:01:02.012 WARN [pool-53-thread-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 01:01:02.019 INFO [pool-53-thread-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 01:01:02.020 INFO [pool-53-thread-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 01:01:02.020 INFO [pool-53-thread-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 01:01:02.025 INFO [pool-53-thread-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 01:01:02.251 INFO [pool-53-thread-1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 01:01:02.332 INFO [pool-53-thread-1] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 01:01:03.630 INFO [pool-53-thread-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@379daba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 01:01:04.086 INFO [pool-53-thread-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 01:01:24.110 INFORMAÇÕES [http-nio-8080-exec-186] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:01:24.113 ADVERTÊNCIA [http-nio-8080-exec-186] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 01:01:24.114 ADVERTÊNCIA [http-nio-8080-exec-186] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 01:01:24.700 INFORMAÇÕES [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.http.impl.conn.PoolingHttpClientConnectionManager$2]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.http.impl.conn.PoolingHttpClientConnectionManager$2]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1435)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1423)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1262)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1223)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:413)
+		at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.finalize(PoolingHttpClientConnectionManager.java:207)
+		at java.lang.System$2.invokeFinalize(System.java:1270)
+		at java.lang.ref.Finalizer.runFinalizer(Finalizer.java:98)
+		at java.lang.ref.Finalizer.access$100(Finalizer.java:34)
+		at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:210)
+30-Jan-2022 01:01:25.237 INFORMAÇÕES [http-nio-8080-exec-186] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:01:25.242 INFORMAÇÕES [http-nio-8080-exec-186] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:01:42.473 INFO [http-nio-8080-exec-195] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 01:01:42.654 INFO [http-nio-8080-exec-195] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 01:01:43.087 INFO [http-nio-8080-exec-195] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 01:01:43.460 WARN [http-nio-8080-exec-195] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 01:01:43.467 INFO [http-nio-8080-exec-195] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 01:01:43.467 INFO [http-nio-8080-exec-195] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 01:01:43.467 INFO [http-nio-8080-exec-195] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 01:01:43.473 INFO [http-nio-8080-exec-195] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 01:01:43.705 INFO [http-nio-8080-exec-195] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 01:01:43.789 INFO [http-nio-8080-exec-195] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 01:01:45.150 INFO [http-nio-8080-exec-195] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3e0eadd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 01:01:45.610 INFO [http-nio-8080-exec-195] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 01:01:45.870 WARN [http-nio-8080-exec-195] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:01:45.870 ERROR [http-nio-8080-exec-195] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 01:01:45.872 INFO [http-nio-8080-exec-195] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:01:57.875 WARN [http-nio-8080-exec-196] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:01:57.875 ERROR [http-nio-8080-exec-196] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 01:01:57.875 INFO [http-nio-8080-exec-196] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:03:57.981 INFORMAÇÕES [http-nio-8080-exec-199] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:03:57.984 ADVERTÊNCIA [http-nio-8080-exec-199] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 01:03:57.984 ADVERTÊNCIA [http-nio-8080-exec-199] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 01:03:59.257 INFORMAÇÕES [http-nio-8080-exec-199] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:03:59.262 INFORMAÇÕES [http-nio-8080-exec-199] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:04:00.642 INFO [http-nio-8080-exec-202] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 01:04:00.771 INFO [http-nio-8080-exec-202] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 01:04:01.191 INFO [http-nio-8080-exec-202] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 01:04:01.569 WARN [http-nio-8080-exec-202] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 01:04:01.576 INFO [http-nio-8080-exec-202] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 01:04:01.576 INFO [http-nio-8080-exec-202] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 01:04:01.577 INFO [http-nio-8080-exec-202] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 01:04:01.582 INFO [http-nio-8080-exec-202] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 01:04:01.843 INFO [http-nio-8080-exec-202] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 01:04:01.927 INFO [http-nio-8080-exec-202] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 01:04:03.270 INFO [http-nio-8080-exec-202] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@621082cb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 01:04:03.727 INFO [http-nio-8080-exec-202] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 01:04:17.797 WARN [http-nio-8080-exec-197] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:04:17.798 ERROR [http-nio-8080-exec-197] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 01:04:17.799 INFO [http-nio-8080-exec-197] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:04:28.732 INFORMAÇÕES [http-nio-8080-exec-206] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:04:28.735 ADVERTÊNCIA [http-nio-8080-exec-206] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 01:04:28.736 ADVERTÊNCIA [http-nio-8080-exec-206] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 01:04:29.859 INFORMAÇÕES [http-nio-8080-exec-206] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:04:29.865 INFORMAÇÕES [http-nio-8080-exec-206] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:05:51.646 INFORMAÇÕES [http-nio-8080-exec-213] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:05:52.862 INFORMAÇÕES [http-nio-8080-exec-213] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:05:52.868 INFORMAÇÕES [http-nio-8080-exec-213] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:05:55.554 INFO [http-nio-8080-exec-214] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 01:05:55.684 INFO [http-nio-8080-exec-214] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 01:05:56.129 INFO [http-nio-8080-exec-214] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 01:05:56.521 WARN [http-nio-8080-exec-214] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 01:05:56.529 INFO [http-nio-8080-exec-214] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 01:05:56.530 INFO [http-nio-8080-exec-214] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 01:05:56.530 INFO [http-nio-8080-exec-214] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 01:05:56.536 INFO [http-nio-8080-exec-214] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 01:05:56.767 INFO [http-nio-8080-exec-214] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 01:05:56.850 INFO [http-nio-8080-exec-214] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 01:05:58.201 INFO [http-nio-8080-exec-214] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2f22f0eb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 01:05:58.667 INFO [http-nio-8080-exec-214] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 01:06:11.039 WARN [http-nio-8080-exec-210] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:06:11.039 ERROR [http-nio-8080-exec-210] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 01:06:11.041 INFO [http-nio-8080-exec-210] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:06:23.806 INFORMAÇÕES [http-nio-8080-exec-217] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:06:23.810 ADVERTÊNCIA [http-nio-8080-exec-217] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 01:06:23.811 ADVERTÊNCIA [http-nio-8080-exec-217] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 01:06:24.907 INFORMAÇÕES [http-nio-8080-exec-217] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:06:24.912 INFORMAÇÕES [http-nio-8080-exec-217] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:11:10.273 INFO [http-nio-8080-exec-226] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 01:11:10.491 INFO [http-nio-8080-exec-226] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 01:11:10.946 INFO [http-nio-8080-exec-226] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 01:11:11.325 WARN [http-nio-8080-exec-226] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 01:11:11.332 INFO [http-nio-8080-exec-226] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 01:11:11.333 INFO [http-nio-8080-exec-226] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 01:11:11.333 INFO [http-nio-8080-exec-226] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 01:11:11.339 INFO [http-nio-8080-exec-226] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 01:11:11.583 INFO [http-nio-8080-exec-226] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 01:11:11.668 INFO [http-nio-8080-exec-226] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 01:11:13.017 INFO [http-nio-8080-exec-226] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17e5d949] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 01:11:13.478 INFO [http-nio-8080-exec-226] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 01:11:13.738 WARN [http-nio-8080-exec-226] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:11:13.738 ERROR [http-nio-8080-exec-226] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(1) is still referenced from table "service_history_conf".
+30-Jan-2022 01:11:13.740 INFO [http-nio-8080-exec-226] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:11:24.864 WARN [http-nio-8080-exec-231] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:11:24.865 ERROR [http-nio-8080-exec-231] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(1) is still referenced from table "service_history_conf".
+30-Jan-2022 01:11:24.865 INFO [http-nio-8080-exec-231] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:12:58.278 WARN [http-nio-8080-exec-228] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:12:58.278 ERROR [http-nio-8080-exec-228] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 01:12:58.278 INFO [http-nio-8080-exec-228] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:15:16.470 WARN [http-nio-8080-exec-228] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:15:16.470 ERROR [http-nio-8080-exec-228] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 01:15:16.470 INFO [http-nio-8080-exec-228] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:16:22.430 WARN [http-nio-8080-exec-233] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:16:22.430 ERROR [http-nio-8080-exec-233] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 01:16:22.431 INFO [http-nio-8080-exec-233] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:16:35.799 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jan-2022 01:16:35.799 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jan-2022 01:16:35.844 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jan-2022 01:16:35.909 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 01:16:35.910 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 01:16:35.916 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jan-2022 01:16:35.933 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Jan-2022 01:16:52.359 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+30-Jan-2022 01:16:52.361 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+30-Jan-2022 01:16:52.364 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+30-Jan-2022 01:16:52.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Jan-2022 01:16:52.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Jan-2022 01:16:52.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Jan-2022 01:16:52.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+30-Jan-2022 01:16:52.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+30-Jan-2022 01:16:52.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Jan-2022 01:16:52.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+30-Jan-2022 01:16:52.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+30-Jan-2022 01:16:52.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\logging.properties
+30-Jan-2022 01:16:52.365 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Jan-2022 01:16:52.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Jan-2022 01:16:52.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Jan-2022 01:16:52.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Jan-2022 01:16:52.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+30-Jan-2022 01:16:52.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+30-Jan-2022 01:16:52.366 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\temp
+30-Jan-2022 01:16:52.366 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+30-Jan-2022 01:16:52.366 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+30-Jan-2022 01:16:52.366 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+30-Jan-2022 01:16:52.371 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+30-Jan-2022 01:16:52.691 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Jan-2022 01:16:52.868 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+30-Jan-2022 01:16:52.892 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1017 ms
+30-Jan-2022 01:16:52.964 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Jan-2022 01:16:52.965 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+30-Jan-2022 01:16:52.974 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\Catalina\localhost\Project.xml]
+30-Jan-2022 01:16:54.778 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:16:54.830 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\Catalina\localhost\Project.xml] has finished in [1,856] ms
+30-Jan-2022 01:16:54.831 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\docs]
+30-Jan-2022 01:16:54.866 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\docs] has finished in [34] ms
+30-Jan-2022 01:16:54.866 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\examples]
+30-Jan-2022 01:16:55.695 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\examples] has finished in [829] ms
+30-Jan-2022 01:16:55.695 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\host-manager]
+30-Jan-2022 01:16:55.747 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\host-manager] has finished in [52] ms
+30-Jan-2022 01:16:55.747 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\manager]
+30-Jan-2022 01:16:55.800 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\manager] has finished in [53] ms
+30-Jan-2022 01:16:55.800 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\ROOT]
+30-Jan-2022 01:16:55.824 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\ROOT] has finished in [24] ms
+30-Jan-2022 01:16:55.827 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Jan-2022 01:16:55.834 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 2941 ms
+30-Jan-2022 01:16:56.424 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:16:57.733 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:16:57.738 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:16:58.472 INFO [http-nio-8080-exec-8] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 01:16:58.607 INFO [http-nio-8080-exec-8] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 01:16:59.083 INFO [http-nio-8080-exec-8] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 01:16:59.519 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 01:16:59.542 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 01:16:59.542 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 01:16:59.542 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 01:16:59.550 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 01:16:59.979 INFO [http-nio-8080-exec-8] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 01:17:00.125 INFO [http-nio-8080-exec-8] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 01:17:01.593 INFO [http-nio-8080-exec-8] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5b8d75a8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 01:17:02.056 INFO [http-nio-8080-exec-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 01:17:18.299 WARN [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:17:18.300 ERROR [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 01:17:18.305 INFO [http-nio-8080-exec-9] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:17:24.502 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:17:24.503 ERROR [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(1) is still referenced from table "service_history_conf".
+30-Jan-2022 01:17:24.503 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:18:10.923 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:18:10.928 ADVERTÊNCIA [http-nio-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 01:18:10.928 ADVERTÊNCIA [http-nio-8080-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 01:18:12.453 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:18:12.463 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:18:15.323 INFO [http-nio-8080-exec-19] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 01:18:15.457 INFO [http-nio-8080-exec-19] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 01:18:15.916 INFO [http-nio-8080-exec-19] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 01:18:16.325 WARN [http-nio-8080-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 01:18:16.333 INFO [http-nio-8080-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 01:18:16.334 INFO [http-nio-8080-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 01:18:16.334 INFO [http-nio-8080-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 01:18:16.341 INFO [http-nio-8080-exec-19] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 01:18:16.580 INFO [http-nio-8080-exec-19] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 01:18:16.663 INFO [http-nio-8080-exec-19] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 01:18:18.019 INFO [http-nio-8080-exec-19] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@247e0c21] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 01:18:18.479 INFO [http-nio-8080-exec-19] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 01:18:31.139 WARN [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:18:31.139 ERROR [http-nio-8080-exec-20] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "service_conf" violates foreign key constraint "fkqtigg7tse95mvs6st603863js" on table "service_history_conf"
+  Detalhe: Key (id)=(36) is still referenced from table "service_history_conf".
+30-Jan-2022 01:18:31.142 INFO [http-nio-8080-exec-20] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:18:53.130 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:18:53.136 ADVERTÊNCIA [http-nio-8080-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 01:18:53.136 ADVERTÊNCIA [http-nio-8080-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 01:18:54.315 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:18:54.320 INFORMAÇÕES [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:19:14.993 INFORMAÇÕES [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:19:16.274 INFORMAÇÕES [http-nio-8080-exec-28] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:19:16.279 INFORMAÇÕES [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:19:19.907 INFO [http-nio-8080-exec-14] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 01:19:20.035 INFO [http-nio-8080-exec-14] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 01:19:20.443 INFO [http-nio-8080-exec-14] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 01:19:20.808 WARN [http-nio-8080-exec-14] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 01:19:20.815 INFO [http-nio-8080-exec-14] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 01:19:20.815 INFO [http-nio-8080-exec-14] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 01:19:20.815 INFO [http-nio-8080-exec-14] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 01:19:20.821 INFO [http-nio-8080-exec-14] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 01:19:21.048 INFO [http-nio-8080-exec-14] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 01:19:21.130 INFO [http-nio-8080-exec-14] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 01:19:22.444 INFO [http-nio-8080-exec-14] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ff2cd3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 01:19:22.903 INFO [http-nio-8080-exec-14] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 01:19:37.649 WARN [http-nio-8080-exec-26] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:19:37.650 ERROR [http-nio-8080-exec-26] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "image_conf" violates foreign key constraint "fkeofcdxqieqrckjjdxye9rym7w" on table "service_conf"
+  Detalhe: Key (id)=(39) is still referenced from table "service_conf".
+30-Jan-2022 01:19:37.651 INFO [http-nio-8080-exec-26] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:19:45.222 WARN [http-nio-8080-exec-29] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23503
+30-Jan-2022 01:19:45.223 ERROR [http-nio-8080-exec-29] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: update or delete on table "image_conf" violates foreign key constraint "fkeofcdxqieqrckjjdxye9rym7w" on table "service_conf"
+  Detalhe: Key (id)=(1) is still referenced from table "service_conf".
+30-Jan-2022 01:19:45.223 INFO [http-nio-8080-exec-29] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+30-Jan-2022 01:20:08.522 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:20:08.524 ADVERTÊNCIA [http-nio-8080-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 01:20:08.525 ADVERTÊNCIA [http-nio-8080-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 01:20:09.631 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:20:09.636 INFORMAÇÕES [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:24:10.650 INFORMAÇÕES [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:24:11.779 INFORMAÇÕES [http-nio-8080-exec-38] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:24:11.784 INFORMAÇÕES [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:24:11.807 INFORMAÇÕES [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:24:12.905 INFORMAÇÕES [http-nio-8080-exec-45] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:24:12.909 INFORMAÇÕES [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:24:59.911 INFORMAÇÕES [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:25:01.098 INFORMAÇÕES [http-nio-8080-exec-48] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:25:01.103 INFORMAÇÕES [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:27:15.694 INFORMAÇÕES [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:27:16.934 INFORMAÇÕES [http-nio-8080-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:27:16.939 INFORMAÇÕES [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:28:31.274 INFORMAÇÕES [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:28:32.478 INFORMAÇÕES [http-nio-8080-exec-54] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:28:32.483 INFORMAÇÕES [http-nio-8080-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:28:39.850 INFO [http-nio-8080-exec-56] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 01:28:39.976 INFO [http-nio-8080-exec-56] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 01:28:40.380 INFO [http-nio-8080-exec-56] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 01:28:40.750 WARN [http-nio-8080-exec-56] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 01:28:40.757 INFO [http-nio-8080-exec-56] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 01:28:40.758 INFO [http-nio-8080-exec-56] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 01:28:40.758 INFO [http-nio-8080-exec-56] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 01:28:40.763 INFO [http-nio-8080-exec-56] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 01:28:40.991 INFO [http-nio-8080-exec-56] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 01:28:41.073 INFO [http-nio-8080-exec-56] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 01:28:42.397 INFO [http-nio-8080-exec-56] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@462f6f14] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 01:28:42.866 INFO [http-nio-8080-exec-56] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 01:33:20.389 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+30-Jan-2022 01:33:20.394 ADVERTÊNCIA [http-nio-8080-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 01:33:20.395 ADVERTÊNCIA [http-nio-8080-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 01:33:21.507 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Jan-2022 01:33:21.513 INFORMAÇÕES [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+30-Jan-2022 01:33:35.360 INFO [http-nio-8080-exec-62] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+30-Jan-2022 01:33:35.487 INFO [http-nio-8080-exec-62] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+30-Jan-2022 01:33:35.894 INFO [http-nio-8080-exec-62] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-Jan-2022 01:33:36.262 WARN [http-nio-8080-exec-62] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+30-Jan-2022 01:33:36.269 INFO [http-nio-8080-exec-62] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+30-Jan-2022 01:33:36.270 INFO [http-nio-8080-exec-62] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+30-Jan-2022 01:33:36.270 INFO [http-nio-8080-exec-62] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+30-Jan-2022 01:33:36.275 INFO [http-nio-8080-exec-62] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+30-Jan-2022 01:33:36.502 INFO [http-nio-8080-exec-62] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-Jan-2022 01:33:36.585 INFO [http-nio-8080-exec-62] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+30-Jan-2022 01:33:37.904 INFO [http-nio-8080-exec-62] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63a9a6cf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+30-Jan-2022 01:33:38.365 INFO [http-nio-8080-exec-62] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-Jan-2022 01:37:34.265 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Jan-2022 01:37:34.265 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Jan-2022 01:37:34.311 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Jan-2022 01:37:34.322 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Jan-2022 01:37:34.323 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+30-Jan-2022 01:37:34.326 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Jan-2022 01:37:34.329 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

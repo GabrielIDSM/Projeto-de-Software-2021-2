@@ -86,9 +86,10 @@
                             <td><%= serviceModel.getId()%></td>
                             <td><%= serviceModel.getName()%></td>
                             <td>
-                                <a class="btn btn-outline-success"><i class="fa fa-eye"></i> Visualizar </a>
+                                <a class="btn btn-outline-success" href="Service?a=show&id=<%= serviceModel.getId() %>"><i class="fa fa-eye"></i> Visualizar </a>
                                 <a class="btn btn-outline-primary" href="Service?a=update&id=<%= serviceModel.getId() %>"><i class="fa fa-edit"></i> Editar </a>
-                                <a class="btn btn-outline-danger" href="Service?a=delete&id=<%= serviceModel.getId() %>"><i class="fa fa-trash"></i> Excluir </a>
+                                <a class="btn btn-outline-info" href="Service?a=image&id=<%= serviceModel.getId() %>"><i class="fas fa-file-image"></i> Imagem </a>
+                                <a class="btn btn-outline-danger" href="Service?a=delete&id=<%= serviceModel.getId() %>" onclick="return confirm('Deseja prosseguir com a operação?')" ><i class="fa fa-trash"></i> Excluir </a>
                             </td>
                         </tr>
                         <% }%>

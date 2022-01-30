@@ -2,19 +2,28 @@ package Controller;
 
 import Model.ServiceModel;
 import Repository.ServiceRepository;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Part;
+import org.apache.tomcat.util.http.fileupload.IOUtils;
 
 /**
  *
  * @author Gabriel Inácio <gabrielinacio@id.uff.br>
  */
+@MultipartConfig 
 @WebServlet(name = "Service", urlPatterns = {"/Service"})
 public class ServiceController extends HttpServlet {
     @Override
@@ -51,6 +60,16 @@ public class ServiceController extends HttpServlet {
                 page = getServletContext().getRequestDispatcher("/updateservice.jsp");
                 page.forward(request, response);
                 break;
+            
+            case "image":
+                serviceId = Integer.parseInt(request.getParameter("id"));
+                serviceModel = serviceRepository.getModel(serviceId);
+                
+                request.setAttribute("service", serviceModel);
+                page = getServletContext().getRequestDispatcher("/imageservice.jsp");
+                page.forward(request, response);
+                break;
+                
             case "delete":
                 serviceId = Integer.parseInt(request.getParameter("id"));
                 serviceRepository.deleteModel(serviceId);
@@ -119,12 +138,56 @@ public class ServiceController extends HttpServlet {
                     page.forward(request, response);
                     break;
                     
+                case "image":
+                    if (request.getParameter("id") == null) {
+                        message = "O campo 'Id' não existe";
+                    } else {
+                        if (request.getParameter("id").equals(""))
+                            message = "O campo 'Id' não existe";
+                    }
+                    
+                    if (request.getPart("file") == null) {
+                        message = "O campo 'Arquivo' não foi preenchido";
+                    }
+                    
+                    if (request.getParameter("image") == null) {
+                        message = "O campo 'Id' não existe";
+                    } else {
+                        if (request.getParameter("image").equals(""))
+                            message = "O campo 'Id' não existe";
+                    }
+                    
+                    if (message.equals("")) {
+                        serviceModel.setId(Integer.parseInt(request.getParameter("id")));
+                        serviceModel.setImageFileName(request.getParameter("image"));
+
+                        Part filePart = request.getPart("file");
+                        InputStream fileContent = filePart.getInputStream();
+
+                        File targetFile = new File(getServletContext().getRealPath("/") + "images/" + serviceModel.getImageFileName());
+                        OutputStream outStream = new FileOutputStream(targetFile);
+
+                        byte[] buffer = new byte[8 * 1024];
+                        int bytesRead;
+                        while ((bytesRead = fileContent.read(buffer)) != -1) {
+                            outStream.write(buffer, 0, bytesRead);
+                        }
+                        IOUtils.closeQuietly(fileContent);
+                        IOUtils.closeQuietly(outStream);
+                    }
+                    
+                    request.setAttribute("message", message);
+    
+                    page = getServletContext().getRequestDispatcher("/services.jsp");
+                    page.forward(request, response);
+                    break;
+                    
                 default:
                     page = getServletContext().getRequestDispatcher("/services.jsp");
                     page.forward(request, response);
             }
         } catch(IOException | NumberFormatException | ServletException e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("Error: " + Arrays.toString(e.getStackTrace()).replace(",", ",\n"));
         }
     }
 }

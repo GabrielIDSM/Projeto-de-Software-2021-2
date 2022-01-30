@@ -63,6 +63,9 @@ public class ServiceRepository extends Repository<ServiceDTO> {
         }).forEachOrdered((serviceModel) -> {
             list.add(serviceModel);
         });
+        list.sort((object1, object2) -> {
+            return object1.getName().compareTo(object2.getName());
+        });
         return list;
     }
     
@@ -109,8 +112,11 @@ public class ServiceRepository extends Repository<ServiceDTO> {
     public Boolean deleteModel(Integer id) {
         Boolean opStatus;
         ImageRepository imageRepository = new ImageRepository();
+        ServiceHistoryRepository serviceHistoryRepository = new ServiceHistoryRepository();
         ServiceDTO serviceDTO = get(id);
-        opStatus = remove(id);
+        opStatus = serviceHistoryRepository.removeAllServiceHistoryByService(serviceDTO);
+        if (opStatus)
+            opStatus = remove(id);
         if (opStatus)
             opStatus = imageRepository.removeImage(serviceDTO.getImage());
         return opStatus;
