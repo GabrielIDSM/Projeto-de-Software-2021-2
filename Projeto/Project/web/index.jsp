@@ -12,11 +12,6 @@
 <%@page import="Repository.ServiceRepository"%>
 <%@page import="Model.ServiceModel"%>
 
-<%
-    ServiceRepository serviceRepository = new ServiceRepository();
-    List<ServiceModel> serviceModelList = serviceRepository.allModel();
-%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -32,8 +27,13 @@
         <title>Is Down ?</title>
     </head>
     <body>
+        <%@include file="components/services.jsp" %>
         <%
             UserModel user = (UserModel) session.getAttribute("user");
+            List<ServiceModel> serviceList = (List<ServiceModel>) request.getAttribute("services");
+            
+            if (serviceList == null)
+                serviceList = new ArrayList<>();
         %>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.jsp">Is Down ?</a>
@@ -78,7 +78,7 @@
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
                     <%
-                        for(ServiceModel serviceModel : serviceModelList) {
+                        for(ServiceModel serviceModel : serviceList) {
                             Integer lastComplaintCount;
                             String dropDivClass;
                             String message;

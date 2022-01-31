@@ -4,7 +4,6 @@ import DAO.ServiceHistoryDAO;
 import DTO.ServiceDTO;
 import DTO.ServiceHistoryDTO;
 import Model.ServiceHistoryModel;
-import Model.ServiceModel;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;

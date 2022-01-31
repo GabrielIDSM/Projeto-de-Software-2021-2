@@ -6,7 +6,6 @@ import Model.RoleModel;
 import Model.UserModel;
 import Util.PasswordUtil;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**

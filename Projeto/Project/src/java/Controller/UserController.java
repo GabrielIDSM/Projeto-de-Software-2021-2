@@ -3,6 +3,7 @@ package Controller;
 import Model.UserModel;
 import Repository.UserRepository;
 import java.io.IOException;
+import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -24,6 +25,7 @@ public class UserController extends HttpServlet {
         RequestDispatcher page;
         HttpSession session = request.getSession();
         String action = (String) request.getParameter("a");
+        UserRepository userRepository = new UserRepository();
         
         if (action == null)
             action = "";
@@ -47,6 +49,10 @@ public class UserController extends HttpServlet {
                 page.forward(request, response);
                 break;
             default:
+                List<UserModel> users = userRepository.allModel();
+                
+                request.setAttribute("users", users);
+                
                 page = getServletContext().getRequestDispatcher("/users.jsp");
                 page.forward(request, response);
         }

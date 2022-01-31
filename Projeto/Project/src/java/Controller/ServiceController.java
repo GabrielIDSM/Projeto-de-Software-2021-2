@@ -9,6 +9,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
@@ -35,6 +36,7 @@ public class ServiceController extends HttpServlet {
         Integer serviceId;
         ServiceModel serviceModel = new ServiceModel();
         ServiceRepository serviceRepository = new ServiceRepository();
+        List<ServiceModel> services;
         
         if (action == null)
             action = "";
@@ -87,7 +89,20 @@ public class ServiceController extends HttpServlet {
                 page.forward(request, response);
                 break;
                 
+            case "load":
+                services = serviceRepository.allModel();
+                
+                request.setAttribute("services", services);
+                
+                page = getServletContext().getRequestDispatcher("/index.jsp");
+                page.forward(request, response);
+                break;
+                
             default:
+                services = serviceRepository.allModel();
+                
+                request.setAttribute("services", services);
+                
                 page = getServletContext().getRequestDispatcher("/services.jsp");
                 page.forward(request, response);
         }
