@@ -19,15 +19,22 @@
     UserModel user = (UserModel) session.getAttribute("user");
     
     Integer historyArrayCount = 0;
+    Integer lastComplaintCount = 0;
     ServiceHistoryModel serviceHistoryLast = null;
     List<String> labelArray = new ArrayList<>();
     List<Integer> dataArray = new ArrayList<>();
+    String serviceDivClass;
+    String serviceChartColor;
+    String serviceTextColor;
+    String serviceMessage;
     
     if (!service.getHistoryList().isEmpty()) 
         historyArrayCount = service.getHistoryList().size();
     
-    if (historyArrayCount > 0)
+    if (historyArrayCount > 0) {
         serviceHistoryLast = service.getHistoryList().get(service.getHistoryList().size() - 1);
+        lastComplaintCount = serviceHistoryLast.getComplaints();
+    }
 
     if (serviceHistoryLast != null) {
         if (historyArrayCount < 15) {
@@ -35,17 +42,45 @@
                 labelArray.add("''");
                 dataArray.add(0);
             }
-            for (int i = (service.getHistoryList().size() - historyArrayCount); i < (service.getHistoryList().size() - 1); i++) {
+            for (int i = (service.getHistoryList().size() - historyArrayCount); i < (service.getHistoryList().size()); i++) {
                 labelArray.add("'" + dateFormat.format(service.getHistoryList().get(i).getCollectionTimestamp()) + "'");
                 dataArray.add(service.getHistoryList().get(i).getComplaints());
             }
         } else {
-            for (int i = (service.getHistoryList().size() - 15); i < (service.getHistoryList().size() - 1); i++) {
+            for (int i = (service.getHistoryList().size() - 15); i < (service.getHistoryList().size()); i++) {
                 labelArray.add("'" + dateFormat.format(service.getHistoryList().get(i).getCollectionTimestamp()) + "'");
                 dataArray.add(service.getHistoryList().get(i).getComplaints());
             }
         }
     }
+
+    if (lastComplaintCount <= ServiceModel.NORMAL_THRESHOLD) { 
+        serviceDivClass = "isdown-service-normal-div";
+        serviceChartColor = "#008000";
+        serviceTextColor = "#FFFFFF";
+        serviceMessage = "O serviço está estável";
+    } else if (lastComplaintCount <= ServiceModel.WARNING_THRESHOLD) {
+        serviceDivClass = "isdown-service-warning-div";
+        serviceChartColor = "#FFFF00";
+        serviceTextColor = "#000000";
+        serviceMessage = "O serviço pode apresentar problemas";
+    } else if (lastComplaintCount <= ServiceModel.DANGER_THRESHOLD) {
+        serviceDivClass = "isdown-service-danger-div";
+        serviceChartColor = "#FFA500";
+        serviceTextColor = "#000000";
+        serviceMessage = "Algo está errado com o serviço";
+    } else if (lastComplaintCount > ServiceModel.DANGER_THRESHOLD) {
+        serviceDivClass = "isdown-service-down-div";
+        serviceChartColor = "#FF0000";
+        serviceTextColor = "#FFFFFF";
+        serviceMessage = "O serviço está impactado";
+    } else {
+        serviceDivClass = "isdown-service-none-div";
+        serviceChartColor = "#FFFFFF";
+        serviceTextColor = "#000000";
+        serviceMessage = "";
+    }
+    
 %>
 
 <!DOCTYPE html>
@@ -74,8 +109,8 @@
                         datasets: [{
                             label: 'Reclamações',
                             data: dataArray,
-                            borderColor: "#333",
-                            backgroundColor: "#888"
+                            borderColor: '<%= serviceChartColor %>',
+                            backgroundColor: '<%= serviceChartColor %>'
                         }]
                     },
                     options: {
@@ -162,7 +197,10 @@
                 <h3><%= service.getName() %></h3>
                 <br/>
                 <br/>
-                <div style="height: 500px;" class="isdown-chart-div">
+                <div style="width: 100%; border-radius: 5px 5px 0 0; height: 50px; text-align: center; vertical-align: middle; color: <%= serviceTextColor %>; background-color: <%= serviceChartColor %>;">
+                    <p style="font-size: 16pt; line-height: 50px;"><%= serviceMessage %></p>
+                </div>
+                <div class="isdown-chart-div <%= serviceDivClass %>">
                     <canvas class="isdown-chart-canvas" id="isdown-chart" ></canvas>
                 </div>
             </div>

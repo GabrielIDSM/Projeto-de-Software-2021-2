@@ -86,3 +86,35 @@
     background-color: black;
     color: white;
 }
+
+.isdown-chart-div {
+    height: 500px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0 0 5px 5px;
+}
+
+.isdown-service-normal-div{
+    border-color: green;
+}
+
+.isdown-service-warning-div{
+    border-color: yellow;
+}
+
+.isdown-service-danger-div{
+    border-color: orange;
+}
+
+.isdown-service-down-div{
+    border-color: red;
+}
+
+.isdown-service-none-div{
+    border-color: white;
+}
+
+.isdown-service-failed-div{
+    border-color: black;
+}
