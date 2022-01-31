@@ -1,0 +1,748 @@
+31-Jan-2022 10:28:23.187 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+31-Jan-2022 10:28:23.187 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+31-Jan-2022 10:28:23.188 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@e643cb')
+31-Jan-2022 10:28:39.116 GRAVE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [83]
+
+80:             <div class="container">
+81:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+82:                     <%
+83:                         for(ServiceModel serviceModel : serviceModelList) {
+84:                             Integer lastComplaintCount;
+85:                             String dropDivClass;
+86:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:217)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:30:04.156 GRAVE [http-nio-8080-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [21]
+
+18:     if (serviceModelList == null)
+19:         response.sendRedirect("Service?a=load");
+20:     
+21:     if (serviceModelList.isEmpty())
+22:         response.sendRedirect("Service?a=load");
+23: %>
+24: 
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:143)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:31:32.247 GRAVE [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [86]
+
+83:             <div class="container">
+84:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+85:                     <%
+86:                         for(ServiceModel serviceModel : serviceModelList) {
+87:                             Integer lastComplaintCount;
+88:                             String dropDivClass;
+89:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:220)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:32:38.498 GRAVE [http-nio-8080-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [83]
+
+80:             <div class="container">
+81:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+82:                     <%
+83:                         for(ServiceModel serviceModel : serviceModelList) {
+84:                             Integer lastComplaintCount;
+85:                             String dropDivClass;
+86:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:216)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:32:39.792 GRAVE [http-nio-8080-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [83]
+
+80:             <div class="container">
+81:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+82:                     <%
+83:                         for(ServiceModel serviceModel : serviceModelList) {
+84:                             Integer lastComplaintCount;
+85:                             String dropDivClass;
+86:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:216)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:32:54.062 GRAVE [http-nio-8080-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [83]
+
+80:             <div class="container">
+81:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+82:                     <%
+83:                         for(ServiceModel serviceModel : serviceModelList) {
+84:                             Integer lastComplaintCount;
+85:                             String dropDivClass;
+86:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:216)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:32:56.521 GRAVE [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [83]
+
+80:             <div class="container">
+81:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+82:                     <%
+83:                         for(ServiceModel serviceModel : serviceModelList) {
+84:                             Integer lastComplaintCount;
+85:                             String dropDivClass;
+86:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:216)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:33:21.769 GRAVE [http-nio-8080-exec-14] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [Service] in context with path [/Project] threw exception
+	java.lang.IllegalStateException: Cannot forward after response has been committed
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:326)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+		at Controller.ServiceController.doGet(ServiceController.java:106)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:33:34.062 GRAVE [http-nio-8080-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [83]
+
+80:             <div class="container">
+81:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+82:                     <%
+83:                         for(ServiceModel serviceModel : serviceModelList) {
+84:                             Integer lastComplaintCount;
+85:                             String dropDivClass;
+86:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:216)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:37:58.863 GRAVE [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [78]
+
+75:             <div class="container">
+76:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+77:                     <%
+78:                         for(ServiceModel serviceModel : serviceList) {
+79:                             Integer lastComplaintCount;
+80:                             String dropDivClass;
+81:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:232)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:38:00.123 GRAVE [http-nio-8080-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [78]
+
+75:             <div class="container">
+76:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+77:                     <%
+78:                         for(ServiceModel serviceModel : serviceList) {
+79:                             Integer lastComplaintCount;
+80:                             String dropDivClass;
+81:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:232)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:38:42.976 GRAVE [http-nio-8080-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [78]
+
+75:             <div class="container">
+76:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+77:                     <%
+78:                         for(ServiceModel serviceModel : serviceList) {
+79:                             Integer lastComplaintCount;
+80:                             String dropDivClass;
+81:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:231)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:38:44.327 GRAVE [http-nio-8080-exec-18] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [78]
+
+75:             <div class="container">
+76:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+77:                     <%
+78:                         for(ServiceModel serviceModel : serviceList) {
+79:                             Integer lastComplaintCount;
+80:                             String dropDivClass;
+81:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:231)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:41:49.951 GRAVE [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [java.lang.NullPointerException] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:231)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:41:53.222 GRAVE [http-nio-8080-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [java.lang.NullPointerException] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:231)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 10:42:56.388 GRAVE [http-nio-8080-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Project] threw exception [An exception occurred processing [/index.jsp] at line [78]
+
+75:             <div class="container">
+76:                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 g-3">
+77:                     <%
+78:                         for(ServiceModel serviceModel : serviceList) {
+79:                             Integer lastComplaintCount;
+80:                             String dropDivClass;
+81:                             String message;
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException
+		at org.apache.jsp.index_jsp._jspService(index_jsp.java:229)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 11:05:54.163 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+31-Jan-2022 11:05:54.163 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+31-Jan-2022 11:57:02.422 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+31-Jan-2022 11:57:02.422 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+31-Jan-2022 11:57:02.424 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@660bb844')
+31-Jan-2022 20:42:54.079 GRAVE [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	java.lang.IndexOutOfBoundsException: Index: 38, Size: 38
+		at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+		at java.util.ArrayList.get(ArrayList.java:429)
+		at org.apache.jsp.service_jsp._jspService(service_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:462)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:388)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+		at Controller.ServiceController.doGet(ServiceController.java:51)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 20:42:54.080 GRAVE [http-nio-8080-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [Service] in context with path [/Project] threw exception [An exception occurred processing [/service.jsp] at line [35]
+
+32:         historyArrayCount = service.getHistoryList().size();
+33:     
+34:     if (historyArrayCount > 0) {
+35:         serviceHistoryLast = service.getHistoryList().get(service.getHistoryList().size());
+36:         lastComplaintCount = serviceHistoryLast.getComplaints();
+37:     }
+38: 
+
+
+Stacktrace:] with root cause
+	java.lang.IndexOutOfBoundsException: Index: 38, Size: 38
+		at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+		at java.util.ArrayList.get(ArrayList.java:429)
+		at org.apache.jsp.service_jsp._jspService(service_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:465)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:383)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:331)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:462)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:388)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+		at Controller.ServiceController.doGet(ServiceController.java:51)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1673)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 20:46:51.367 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+31-Jan-2022 20:46:51.367 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

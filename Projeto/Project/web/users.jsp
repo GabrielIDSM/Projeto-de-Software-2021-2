@@ -14,8 +14,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <%
-    UserRepository userRepository = new UserRepository();
-    List<UserModel> userModelList = userRepository.allModel();
+    List<UserModel> userModelList = (List<UserModel>) request.getAttribute("users");
 %>
 
 <!DOCTYPE html>

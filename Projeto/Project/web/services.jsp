@@ -12,8 +12,7 @@
 <%@page import="Model.ServiceModel"%>
 
 <%
-    ServiceRepository serviceRepository = new ServiceRepository();
-    List<ServiceModel> serviceModelList = serviceRepository.allModel();
+    List<ServiceModel> serviceModelList = (List<ServiceModel>) request.getAttribute("services");
 %>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
