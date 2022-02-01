@@ -46,6 +46,9 @@ public class ServiceController extends HttpServlet {
                 serviceId = Integer.parseInt(request.getParameter("id"));
                 serviceModel = serviceRepository.getModel(serviceId);
                 
+                services = serviceRepository.allModel();
+                request.setAttribute("services", services);
+                
                 request.setAttribute("service", serviceModel);
                 page = getServletContext().getRequestDispatcher("/service.jsp");
                 page.forward(request, response);
@@ -58,6 +61,9 @@ public class ServiceController extends HttpServlet {
                 serviceModel.setImageFileName("");
                 serviceModel.setHistoryList(new ArrayList<>());
                 
+                services = serviceRepository.allModel();
+                request.setAttribute("services", services);
+                
                 request.setAttribute("service", serviceModel);
                 page = getServletContext().getRequestDispatcher("/createservice.jsp");
                 page.forward(request, response);
@@ -66,6 +72,9 @@ public class ServiceController extends HttpServlet {
             case "update":
                 serviceId = Integer.parseInt(request.getParameter("id"));
                 serviceModel = serviceRepository.getModel(serviceId);
+                
+                services = serviceRepository.allModel();
+                request.setAttribute("services", services);
                 
                 request.setAttribute("service", serviceModel);
                 page = getServletContext().getRequestDispatcher("/updateservice.jsp");
@@ -76,6 +85,9 @@ public class ServiceController extends HttpServlet {
                 serviceId = Integer.parseInt(request.getParameter("id"));
                 serviceModel = serviceRepository.getModel(serviceId);
                 
+                services = serviceRepository.allModel();
+                request.setAttribute("services", services);
+                
                 request.setAttribute("service", serviceModel);
                 page = getServletContext().getRequestDispatcher("/imageservice.jsp");
                 page.forward(request, response);
@@ -85,13 +97,15 @@ public class ServiceController extends HttpServlet {
                 serviceId = Integer.parseInt(request.getParameter("id"));
                 serviceRepository.deleteModel(serviceId);
                 
+                services = serviceRepository.allModel();
+                request.setAttribute("services", services);
+                
                 page = getServletContext().getRequestDispatcher("/services.jsp");
                 page.forward(request, response);
                 break;
                 
             case "load":
                 services = serviceRepository.allModel();
-                
                 request.setAttribute("services", services);
                 
                 page = getServletContext().getRequestDispatcher("/index.jsp");
@@ -100,7 +114,6 @@ public class ServiceController extends HttpServlet {
                 
             default:
                 services = serviceRepository.allModel();
-                
                 request.setAttribute("services", services);
                 
                 page = getServletContext().getRequestDispatcher("/services.jsp");
@@ -118,7 +131,9 @@ public class ServiceController extends HttpServlet {
         try {
             String action = (String) request.getParameter("a");
             ServiceModel serviceModel = new ServiceModel();
+            
             ServiceRepository serviceRepository = new ServiceRepository();
+            List<ServiceModel> services;
             
             if (action == null)
                 action = "";
@@ -157,6 +172,9 @@ public class ServiceController extends HttpServlet {
                     }
                     
                     request.setAttribute("message", message);
+                    
+                    services = serviceRepository.allModel();
+                    request.setAttribute("services", services);
                     
                     page = getServletContext().getRequestDispatcher("/services.jsp");
                     page.forward(request, response);
@@ -201,12 +219,18 @@ public class ServiceController extends HttpServlet {
                     }
                     
                     request.setAttribute("message", message);
+                    
+                    services = serviceRepository.allModel();
+                    request.setAttribute("services", services);
     
                     page = getServletContext().getRequestDispatcher("/services.jsp");
                     page.forward(request, response);
                     break;
                     
                 default:
+                    services = serviceRepository.allModel();
+                    request.setAttribute("services", services);
+                    
                     page = getServletContext().getRequestDispatcher("/services.jsp");
                     page.forward(request, response);
             }

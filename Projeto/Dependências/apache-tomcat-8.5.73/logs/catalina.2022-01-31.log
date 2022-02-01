@@ -204,3 +204,326 @@
  java.lang.Thread.run(Thread.java:745)
 31-Jan-2022 20:46:51.387 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 31-Jan-2022 20:46:51.391 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 20:56:51.835 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+31-Jan-2022 20:56:51.860 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+31-Jan-2022 20:56:51.863 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+31-Jan-2022 20:56:51.863 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-Jan-2022 20:56:51.863 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-Jan-2022 20:56:51.863 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Jan-2022 20:56:51.863 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\logging.properties
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\temp
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+31-Jan-2022 20:56:51.864 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+31-Jan-2022 20:56:51.865 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+31-Jan-2022 20:56:51.869 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+31-Jan-2022 20:56:52.558 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 20:56:52.672 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Jan-2022 20:56:52.679 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1229 ms
+31-Jan-2022 20:56:52.714 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Jan-2022 20:56:52.714 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+31-Jan-2022 20:56:52.723 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\Catalina\localhost\Project.xml]
+31-Jan-2022 20:56:55.768 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Jan-2022 20:56:55.811 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\Catalina\localhost\Project.xml] has finished in [3,087] ms
+31-Jan-2022 20:56:55.812 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\docs]
+31-Jan-2022 20:56:55.833 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\docs] has finished in [22] ms
+31-Jan-2022 20:56:55.833 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\examples]
+31-Jan-2022 20:56:56.188 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\examples] has finished in [354] ms
+31-Jan-2022 20:56:56.188 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\host-manager]
+31-Jan-2022 20:56:56.214 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\host-manager] has finished in [26] ms
+31-Jan-2022 20:56:56.214 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\manager]
+31-Jan-2022 20:56:56.247 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\manager] has finished in [33] ms
+31-Jan-2022 20:56:56.248 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\ROOT]
+31-Jan-2022 20:56:56.357 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\ROOT] has finished in [109] ms
+31-Jan-2022 20:56:56.371 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 20:56:56.392 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 3711 ms
+31-Jan-2022 20:56:58.200 INFO [http-nio-8080-exec-8] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+31-Jan-2022 20:56:58.371 INFO [http-nio-8080-exec-8] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+31-Jan-2022 20:56:58.838 INFO [http-nio-8080-exec-8] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+31-Jan-2022 20:56:59.340 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+31-Jan-2022 20:56:59.365 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+31-Jan-2022 20:56:59.365 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+31-Jan-2022 20:56:59.365 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+31-Jan-2022 20:56:59.371 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+31-Jan-2022 20:57:00.094 INFO [http-nio-8080-exec-8] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+31-Jan-2022 20:57:00.203 INFO [http-nio-8080-exec-8] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+31-Jan-2022 20:57:01.719 INFO [http-nio-8080-exec-8] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@657fa94b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+31-Jan-2022 20:57:02.180 INFO [http-nio-8080-exec-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+31-Jan-2022 22:58:41.223 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23505
+31-Jan-2022 22:58:41.224 ERROR [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: duplicate key value violates unique constraint "uk_tdtu4q34s1523vp5a4iq0dqs6"
+  Detalhe: Key (file_name)=(teams.png) already exists.
+31-Jan-2022 23:00:46.069 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+31-Jan-2022 23:00:46.091 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Jan-2022 23:00:46.091 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 23:00:48.588 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Jan-2022 23:00:48.600 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+31-Jan-2022 23:00:49.285 INFO [http-nio-8080-exec-8] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+31-Jan-2022 23:00:49.450 INFO [http-nio-8080-exec-8] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+31-Jan-2022 23:00:49.889 INFO [http-nio-8080-exec-8] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+31-Jan-2022 23:00:50.275 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+31-Jan-2022 23:00:50.283 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+31-Jan-2022 23:00:50.283 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+31-Jan-2022 23:00:50.283 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+31-Jan-2022 23:00:50.289 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+31-Jan-2022 23:00:50.545 INFO [http-nio-8080-exec-8] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+31-Jan-2022 23:00:50.765 INFO [http-nio-8080-exec-8] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+31-Jan-2022 23:00:52.150 INFO [http-nio-8080-exec-8] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1be26810] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+31-Jan-2022 23:00:52.618 INFO [http-nio-8080-exec-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+31-Jan-2022 23:01:27.789 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 23505
+31-Jan-2022 23:01:27.789 ERROR [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions ERROR: duplicate key value violates unique constraint "uk_tdtu4q34s1523vp5a4iq0dqs6"
+  Detalhe: Key (file_name)=(teams.png) already exists.
+31-Jan-2022 23:01:51.479 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+31-Jan-2022 23:01:51.486 ADVERTÊNCIA [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Jan-2022 23:01:51.486 ADVERTÊNCIA [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 23:01:51.486 ADVERTÊNCIA [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [pool-4-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 23:01:51.487 ADVERTÊNCIA [http-nio-8080-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 23:01:53.041 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Jan-2022 23:01:53.046 INFORMAÇÕES [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+31-Jan-2022 23:01:54.018 INFO [http-nio-8080-exec-16] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+31-Jan-2022 23:01:54.154 INFO [http-nio-8080-exec-16] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+31-Jan-2022 23:01:54.586 INFO [http-nio-8080-exec-16] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+31-Jan-2022 23:01:55.000 WARN [http-nio-8080-exec-16] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+31-Jan-2022 23:01:55.007 INFO [http-nio-8080-exec-16] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+31-Jan-2022 23:01:55.007 INFO [http-nio-8080-exec-16] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+31-Jan-2022 23:01:55.007 INFO [http-nio-8080-exec-16] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+31-Jan-2022 23:01:55.013 INFO [http-nio-8080-exec-16] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+31-Jan-2022 23:01:55.245 INFO [http-nio-8080-exec-16] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+31-Jan-2022 23:01:55.329 INFO [http-nio-8080-exec-16] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+31-Jan-2022 23:01:56.676 INFO [http-nio-8080-exec-16] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@53c0dc16] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+31-Jan-2022 23:01:57.143 INFO [http-nio-8080-exec-16] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+31-Jan-2022 23:03:53.133 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+31-Jan-2022 23:03:53.137 ADVERTÊNCIA [http-nio-8080-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Jan-2022 23:03:53.138 ADVERTÊNCIA [http-nio-8080-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 23:03:54.637 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Jan-2022 23:03:54.645 INFORMAÇÕES [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+31-Jan-2022 23:03:57.035 INFO [http-nio-8080-exec-26] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+31-Jan-2022 23:03:57.167 INFO [http-nio-8080-exec-26] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+31-Jan-2022 23:03:57.588 INFO [http-nio-8080-exec-26] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+31-Jan-2022 23:03:57.969 WARN [http-nio-8080-exec-26] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+31-Jan-2022 23:03:57.977 INFO [http-nio-8080-exec-26] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+31-Jan-2022 23:03:57.978 INFO [http-nio-8080-exec-26] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+31-Jan-2022 23:03:57.978 INFO [http-nio-8080-exec-26] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+31-Jan-2022 23:03:57.984 INFO [http-nio-8080-exec-26] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+31-Jan-2022 23:03:58.222 INFO [http-nio-8080-exec-26] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+31-Jan-2022 23:03:58.307 INFO [http-nio-8080-exec-26] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+31-Jan-2022 23:03:59.751 INFO [http-nio-8080-exec-26] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1b4242fe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+31-Jan-2022 23:04:00.219 INFO [http-nio-8080-exec-26] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+31-Jan-2022 23:05:00.926 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+31-Jan-2022 23:05:00.930 ADVERTÊNCIA [http-nio-8080-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Jan-2022 23:05:00.930 ADVERTÊNCIA [http-nio-8080-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 23:05:02.200 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Jan-2022 23:05:02.205 INFORMAÇÕES [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+31-Jan-2022 23:06:32.269 INFO [http-nio-8080-exec-40] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+31-Jan-2022 23:06:32.403 INFO [http-nio-8080-exec-40] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+31-Jan-2022 23:06:32.833 INFO [http-nio-8080-exec-40] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+31-Jan-2022 23:06:33.268 WARN [http-nio-8080-exec-40] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+31-Jan-2022 23:06:33.274 INFO [http-nio-8080-exec-40] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+31-Jan-2022 23:06:33.274 INFO [http-nio-8080-exec-40] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+31-Jan-2022 23:06:33.274 INFO [http-nio-8080-exec-40] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+31-Jan-2022 23:06:33.280 INFO [http-nio-8080-exec-40] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+31-Jan-2022 23:06:33.511 INFO [http-nio-8080-exec-40] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+31-Jan-2022 23:06:33.595 INFO [http-nio-8080-exec-40] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+31-Jan-2022 23:06:34.971 INFO [http-nio-8080-exec-40] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7e8818c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+31-Jan-2022 23:06:35.436 INFO [http-nio-8080-exec-40] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+31-Jan-2022 23:09:08.344 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Jan-2022 23:09:08.344 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:09:08.383 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Jan-2022 23:09:08.413 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Jan-2022 23:09:08.414 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 23:09:08.421 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:09:08.424 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:09:14.487 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+31-Jan-2022 23:09:14.489 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+31-Jan-2022 23:09:14.492 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+31-Jan-2022 23:09:14.492 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-Jan-2022 23:09:14.492 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-Jan-2022 23:09:14.492 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Jan-2022 23:09:14.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+31-Jan-2022 23:09:14.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+31-Jan-2022 23:09:14.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Jan-2022 23:09:14.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 23:09:14.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 23:09:14.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\logging.properties
+31-Jan-2022 23:09:14.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Jan-2022 23:09:14.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Jan-2022 23:09:14.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Jan-2022 23:09:14.493 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Jan-2022 23:09:14.494 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 23:09:14.494 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 23:09:14.494 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\temp
+31-Jan-2022 23:09:14.494 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+31-Jan-2022 23:09:14.494 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+31-Jan-2022 23:09:14.494 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+31-Jan-2022 23:09:14.499 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+31-Jan-2022 23:09:14.668 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:09:14.779 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Jan-2022 23:09:14.789 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 629 ms
+31-Jan-2022 23:09:14.832 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Jan-2022 23:09:14.832 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+31-Jan-2022 23:09:14.841 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\Catalina\localhost\Project.xml]
+31-Jan-2022 23:09:16.683 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Jan-2022 23:09:16.731 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\Catalina\localhost\Project.xml] has finished in [1,889] ms
+31-Jan-2022 23:09:16.733 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\docs]
+31-Jan-2022 23:09:16.762 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\docs] has finished in [28] ms
+31-Jan-2022 23:09:16.762 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\examples]
+31-Jan-2022 23:09:17.089 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\examples] has finished in [327] ms
+31-Jan-2022 23:09:17.089 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\host-manager]
+31-Jan-2022 23:09:17.131 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\host-manager] has finished in [42] ms
+31-Jan-2022 23:09:17.131 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\manager]
+31-Jan-2022 23:09:17.162 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\manager] has finished in [31] ms
+31-Jan-2022 23:09:17.162 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\ROOT]
+31-Jan-2022 23:09:17.189 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\ROOT] has finished in [27] ms
+31-Jan-2022 23:09:17.191 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:09:17.199 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 2410 ms
+31-Jan-2022 23:10:19.131 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Jan-2022 23:10:19.132 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:10:19.179 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Jan-2022 23:10:19.196 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:10:19.200 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:10:24.505 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.73
+31-Jan-2022 23:10:24.507 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 11 2021 13:14:36 UTC
+31-Jan-2022 23:10:24.511 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.73.0
+31-Jan-2022 23:10:24.511 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-Jan-2022 23:10:24.511 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-Jan-2022 23:10:24.511 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Jan-2022 23:10:24.511 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+31-Jan-2022 23:10:24.511 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+31-Jan-2022 23:10:24.511 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Jan-2022 23:10:24.511 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\logging.properties
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\temp
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [{4}].
+31-Jan-2022 23:10:24.512 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+31-Jan-2022 23:10:24.517 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+31-Jan-2022 23:10:24.665 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:10:24.774 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Jan-2022 23:10:24.782 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 600 ms
+31-Jan-2022 23:10:24.816 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Jan-2022 23:10:24.816 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.73]
+31-Jan-2022 23:10:24.828 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\Catalina\localhost\Project.xml]
+31-Jan-2022 23:10:26.570 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Jan-2022 23:10:26.642 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\conf\Catalina\localhost\Project.xml] has finished in [1,814] ms
+31-Jan-2022 23:10:26.643 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\docs]
+31-Jan-2022 23:10:26.666 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\docs] has finished in [22] ms
+31-Jan-2022 23:10:26.666 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\examples]
+31-Jan-2022 23:10:26.975 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\examples] has finished in [309] ms
+31-Jan-2022 23:10:26.975 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\host-manager]
+31-Jan-2022 23:10:27.005 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\host-manager] has finished in [30] ms
+31-Jan-2022 23:10:27.005 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\manager]
+31-Jan-2022 23:10:27.037 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\manager] has finished in [32] ms
+31-Jan-2022 23:10:27.037 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\ROOT]
+31-Jan-2022 23:10:27.068 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gabriel\Files\Projetos 2\PS\Projeto-de-Software-2021-2\Projeto\Dependências\apache-tomcat-8.5.73\webapps\ROOT] has finished in [31] ms
+31-Jan-2022 23:10:27.071 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:10:27.082 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 2300 ms
+31-Jan-2022 23:10:28.072 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] has started
+31-Jan-2022 23:10:29.611 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Jan-2022 23:10:29.617 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Project] is completed
+31-Jan-2022 23:10:30.106 INFO [http-nio-8080-exec-3] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: PU]
+31-Jan-2022 23:10:30.251 INFO [http-nio-8080-exec-3] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 5.6.2.Final
+31-Jan-2022 23:10:30.740 INFO [http-nio-8080-exec-3] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+31-Jan-2022 23:10:31.268 WARN [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+31-Jan-2022 23:10:31.279 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost/isdown-ps]
+31-Jan-2022 23:10:31.279 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+31-Jan-2022 23:10:31.279 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+31-Jan-2022 23:10:31.286 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH000115: Hibernate connection pool size: 20 (min=1)
+31-Jan-2022 23:10:31.662 INFO [http-nio-8080-exec-3] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+31-Jan-2022 23:10:31.782 INFO [http-nio-8080-exec-3] org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator.resolveBeanContainer HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+31-Jan-2022 23:10:33.337 INFO [http-nio-8080-exec-3] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@472ae2f5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+31-Jan-2022 23:10:33.821 INFO [http-nio-8080-exec-3] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+31-Jan-2022 23:26:19.261 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Jan-2022 23:26:19.262 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:26:19.305 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Jan-2022 23:26:19.327 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Project] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Jan-2022 23:26:19.327 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Project] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+31-Jan-2022 23:26:19.332 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Jan-2022 23:26:19.335 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
